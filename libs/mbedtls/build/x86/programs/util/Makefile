@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake
+CMAKE_COMMAND = /home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake
 
 # The command to remove a file.
-RM = /home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E remove -f
+RM = /home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/mbedtls
+CMAKE_SOURCE_DIR = /home/ramazan/AndroidStudioProjects/libs/mbedtls/mbedtls
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86
+CMAKE_BINARY_DIR = /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,37 +59,37 @@ CMAKE_BINARY_DIR = /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -P cmake_install.cmake
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -P cmake_install.cmake
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target list_install_components
@@ -105,7 +105,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -116,7 +116,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -126,14 +126,14 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/programs/util/CMakeFiles/progress.marks
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/util/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/programs/util/CMakeFiles/progress.marks
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/util/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/util/clean
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/util/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/util/preinstall
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/util/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/util/preinstall
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/util/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 programs/util/CMakeFiles/strerror.dir/rule:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/util/CMakeFiles/strerror.dir/rule
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/util/CMakeFiles/strerror.dir/rule
 .PHONY : programs/util/CMakeFiles/strerror.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ strerror: programs/util/CMakeFiles/strerror.dir/rule
 
 # fast build rule for target.
 strerror/fast:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/util/CMakeFiles/strerror.dir/build.make programs/util/CMakeFiles/strerror.dir/build
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/util/CMakeFiles/strerror.dir/build.make programs/util/CMakeFiles/strerror.dir/build
 .PHONY : strerror/fast
 
 # Convenience name for target.
 programs/util/CMakeFiles/pem2der.dir/rule:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/util/CMakeFiles/pem2der.dir/rule
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/util/CMakeFiles/pem2der.dir/rule
 .PHONY : programs/util/CMakeFiles/pem2der.dir/rule
 
 # Convenience name for target.
@@ -183,7 +183,7 @@ pem2der: programs/util/CMakeFiles/pem2der.dir/rule
 
 # fast build rule for target.
 pem2der/fast:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/util/CMakeFiles/pem2der.dir/build.make programs/util/CMakeFiles/pem2der.dir/build
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/util/CMakeFiles/pem2der.dir/build.make programs/util/CMakeFiles/pem2der.dir/build
 .PHONY : pem2der/fast
 
 pem2der.o: pem2der.c.o
@@ -192,7 +192,7 @@ pem2der.o: pem2der.c.o
 
 # target to build an object file
 pem2der.c.o:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/util/CMakeFiles/pem2der.dir/build.make programs/util/CMakeFiles/pem2der.dir/pem2der.c.o
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/util/CMakeFiles/pem2der.dir/build.make programs/util/CMakeFiles/pem2der.dir/pem2der.c.o
 .PHONY : pem2der.c.o
 
 pem2der.i: pem2der.c.i
@@ -201,7 +201,7 @@ pem2der.i: pem2der.c.i
 
 # target to preprocess a source file
 pem2der.c.i:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/util/CMakeFiles/pem2der.dir/build.make programs/util/CMakeFiles/pem2der.dir/pem2der.c.i
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/util/CMakeFiles/pem2der.dir/build.make programs/util/CMakeFiles/pem2der.dir/pem2der.c.i
 .PHONY : pem2der.c.i
 
 pem2der.s: pem2der.c.s
@@ -210,7 +210,7 @@ pem2der.s: pem2der.c.s
 
 # target to generate assembly for a file
 pem2der.c.s:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/util/CMakeFiles/pem2der.dir/build.make programs/util/CMakeFiles/pem2der.dir/pem2der.c.s
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/util/CMakeFiles/pem2der.dir/build.make programs/util/CMakeFiles/pem2der.dir/pem2der.c.s
 .PHONY : pem2der.c.s
 
 strerror.o: strerror.c.o
@@ -219,7 +219,7 @@ strerror.o: strerror.c.o
 
 # target to build an object file
 strerror.c.o:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/util/CMakeFiles/strerror.dir/build.make programs/util/CMakeFiles/strerror.dir/strerror.c.o
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/util/CMakeFiles/strerror.dir/build.make programs/util/CMakeFiles/strerror.dir/strerror.c.o
 .PHONY : strerror.c.o
 
 strerror.i: strerror.c.i
@@ -228,7 +228,7 @@ strerror.i: strerror.c.i
 
 # target to preprocess a source file
 strerror.c.i:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/util/CMakeFiles/strerror.dir/build.make programs/util/CMakeFiles/strerror.dir/strerror.c.i
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/util/CMakeFiles/strerror.dir/build.make programs/util/CMakeFiles/strerror.dir/strerror.c.i
 .PHONY : strerror.c.i
 
 strerror.s: strerror.c.s
@@ -237,7 +237,7 @@ strerror.s: strerror.c.s
 
 # target to generate assembly for a file
 strerror.c.s:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/util/CMakeFiles/strerror.dir/build.make programs/util/CMakeFiles/strerror.dir/strerror.c.s
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/util/CMakeFiles/strerror.dir/build.make programs/util/CMakeFiles/strerror.dir/strerror.c.s
 .PHONY : strerror.c.s
 
 # Help Target
@@ -271,6 +271,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

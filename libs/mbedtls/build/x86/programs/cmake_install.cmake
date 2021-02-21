@@ -1,4 +1,4 @@
-# Install script for directory: /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/mbedtls/programs
+# Install script for directory: /home/ramazan/AndroidStudioProjects/libs/mbedtls/mbedtls/programs
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,16 +39,16 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/programs/aes/cmake_install.cmake")
-  include("/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/programs/fuzz/cmake_install.cmake")
-  include("/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/programs/hash/cmake_install.cmake")
-  include("/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/programs/pkey/cmake_install.cmake")
-  include("/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/programs/psa/cmake_install.cmake")
-  include("/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/programs/random/cmake_install.cmake")
-  include("/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/programs/ssl/cmake_install.cmake")
-  include("/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/programs/test/cmake_install.cmake")
-  include("/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/programs/util/cmake_install.cmake")
-  include("/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/programs/x509/cmake_install.cmake")
+  include("/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/programs/aes/cmake_install.cmake")
+  include("/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/programs/fuzz/cmake_install.cmake")
+  include("/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/programs/hash/cmake_install.cmake")
+  include("/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/programs/pkey/cmake_install.cmake")
+  include("/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/programs/psa/cmake_install.cmake")
+  include("/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/programs/random/cmake_install.cmake")
+  include("/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/programs/ssl/cmake_install.cmake")
+  include("/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/programs/test/cmake_install.cmake")
+  include("/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/programs/util/cmake_install.cmake")
+  include("/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/programs/x509/cmake_install.cmake")
 
 endif()
 

@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake
+CMAKE_COMMAND = /home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake
 
 # The command to remove a file.
-RM = /home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E remove -f
+RM = /home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/mbedtls
+CMAKE_SOURCE_DIR = /home/ramazan/AndroidStudioProjects/libs/mbedtls/mbedtls
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86
+CMAKE_BINARY_DIR = /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,13 +59,13 @@ CMAKE_BINARY_DIR = /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target list_install_components
@@ -81,7 +81,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -92,7 +92,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -103,37 +103,37 @@ edit_cache/fast: edit_cache
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -P cmake_install.cmake
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -P cmake_install.cmake
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/programs/ssl/CMakeFiles/progress.marks
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/ssl/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/programs/ssl/CMakeFiles/progress.marks
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/ssl/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/ssl/clean
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/ssl/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/ssl/preinstall
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/ssl/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/ssl/preinstall
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/ssl/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 programs/ssl/CMakeFiles/ssl_pthread_server.dir/rule:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/ssl/CMakeFiles/ssl_pthread_server.dir/rule
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/ssl/CMakeFiles/ssl_pthread_server.dir/rule
 .PHONY : programs/ssl/CMakeFiles/ssl_pthread_server.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ ssl_pthread_server: programs/ssl/CMakeFiles/ssl_pthread_server.dir/rule
 
 # fast build rule for target.
 ssl_pthread_server/fast:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_pthread_server.dir/build.make programs/ssl/CMakeFiles/ssl_pthread_server.dir/build
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_pthread_server.dir/build.make programs/ssl/CMakeFiles/ssl_pthread_server.dir/build
 .PHONY : ssl_pthread_server/fast
 
 # Convenience name for target.
 programs/ssl/CMakeFiles/dtls_client.dir/rule:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/ssl/CMakeFiles/dtls_client.dir/rule
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/ssl/CMakeFiles/dtls_client.dir/rule
 .PHONY : programs/ssl/CMakeFiles/dtls_client.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ dtls_client: programs/ssl/CMakeFiles/dtls_client.dir/rule
 
 # fast build rule for target.
 dtls_client/fast:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/dtls_client.dir/build.make programs/ssl/CMakeFiles/dtls_client.dir/build
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/dtls_client.dir/build.make programs/ssl/CMakeFiles/dtls_client.dir/build
 .PHONY : dtls_client/fast
 
 # Convenience name for target.
 programs/ssl/CMakeFiles/dtls_server.dir/rule:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/ssl/CMakeFiles/dtls_server.dir/rule
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/ssl/CMakeFiles/dtls_server.dir/rule
 .PHONY : programs/ssl/CMakeFiles/dtls_server.dir/rule
 
 # Convenience name for target.
@@ -198,12 +198,12 @@ dtls_server: programs/ssl/CMakeFiles/dtls_server.dir/rule
 
 # fast build rule for target.
 dtls_server/fast:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/dtls_server.dir/build.make programs/ssl/CMakeFiles/dtls_server.dir/build
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/dtls_server.dir/build.make programs/ssl/CMakeFiles/dtls_server.dir/build
 .PHONY : dtls_server/fast
 
 # Convenience name for target.
 programs/ssl/CMakeFiles/ssl_server.dir/rule:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/ssl/CMakeFiles/ssl_server.dir/rule
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/ssl/CMakeFiles/ssl_server.dir/rule
 .PHONY : programs/ssl/CMakeFiles/ssl_server.dir/rule
 
 # Convenience name for target.
@@ -213,12 +213,12 @@ ssl_server: programs/ssl/CMakeFiles/ssl_server.dir/rule
 
 # fast build rule for target.
 ssl_server/fast:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_server.dir/build.make programs/ssl/CMakeFiles/ssl_server.dir/build
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_server.dir/build.make programs/ssl/CMakeFiles/ssl_server.dir/build
 .PHONY : ssl_server/fast
 
 # Convenience name for target.
 programs/ssl/CMakeFiles/ssl_server2.dir/rule:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/ssl/CMakeFiles/ssl_server2.dir/rule
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/ssl/CMakeFiles/ssl_server2.dir/rule
 .PHONY : programs/ssl/CMakeFiles/ssl_server2.dir/rule
 
 # Convenience name for target.
@@ -228,12 +228,12 @@ ssl_server2: programs/ssl/CMakeFiles/ssl_server2.dir/rule
 
 # fast build rule for target.
 ssl_server2/fast:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_server2.dir/build.make programs/ssl/CMakeFiles/ssl_server2.dir/build
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_server2.dir/build.make programs/ssl/CMakeFiles/ssl_server2.dir/build
 .PHONY : ssl_server2/fast
 
 # Convenience name for target.
 programs/ssl/CMakeFiles/mini_client.dir/rule:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/ssl/CMakeFiles/mini_client.dir/rule
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/ssl/CMakeFiles/mini_client.dir/rule
 .PHONY : programs/ssl/CMakeFiles/mini_client.dir/rule
 
 # Convenience name for target.
@@ -243,12 +243,12 @@ mini_client: programs/ssl/CMakeFiles/mini_client.dir/rule
 
 # fast build rule for target.
 mini_client/fast:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/mini_client.dir/build.make programs/ssl/CMakeFiles/mini_client.dir/build
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/mini_client.dir/build.make programs/ssl/CMakeFiles/mini_client.dir/build
 .PHONY : mini_client/fast
 
 # Convenience name for target.
 programs/ssl/CMakeFiles/ssl_client1.dir/rule:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/ssl/CMakeFiles/ssl_client1.dir/rule
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/ssl/CMakeFiles/ssl_client1.dir/rule
 .PHONY : programs/ssl/CMakeFiles/ssl_client1.dir/rule
 
 # Convenience name for target.
@@ -258,12 +258,12 @@ ssl_client1: programs/ssl/CMakeFiles/ssl_client1.dir/rule
 
 # fast build rule for target.
 ssl_client1/fast:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_client1.dir/build.make programs/ssl/CMakeFiles/ssl_client1.dir/build
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_client1.dir/build.make programs/ssl/CMakeFiles/ssl_client1.dir/build
 .PHONY : ssl_client1/fast
 
 # Convenience name for target.
 programs/ssl/CMakeFiles/ssl_client2.dir/rule:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/ssl/CMakeFiles/ssl_client2.dir/rule
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/ssl/CMakeFiles/ssl_client2.dir/rule
 .PHONY : programs/ssl/CMakeFiles/ssl_client2.dir/rule
 
 # Convenience name for target.
@@ -273,12 +273,12 @@ ssl_client2: programs/ssl/CMakeFiles/ssl_client2.dir/rule
 
 # fast build rule for target.
 ssl_client2/fast:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_client2.dir/build.make programs/ssl/CMakeFiles/ssl_client2.dir/build
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_client2.dir/build.make programs/ssl/CMakeFiles/ssl_client2.dir/build
 .PHONY : ssl_client2/fast
 
 # Convenience name for target.
 programs/ssl/CMakeFiles/ssl_context_info.dir/rule:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/ssl/CMakeFiles/ssl_context_info.dir/rule
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/ssl/CMakeFiles/ssl_context_info.dir/rule
 .PHONY : programs/ssl/CMakeFiles/ssl_context_info.dir/rule
 
 # Convenience name for target.
@@ -288,12 +288,12 @@ ssl_context_info: programs/ssl/CMakeFiles/ssl_context_info.dir/rule
 
 # fast build rule for target.
 ssl_context_info/fast:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_context_info.dir/build.make programs/ssl/CMakeFiles/ssl_context_info.dir/build
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_context_info.dir/build.make programs/ssl/CMakeFiles/ssl_context_info.dir/build
 .PHONY : ssl_context_info/fast
 
 # Convenience name for target.
 programs/ssl/CMakeFiles/ssl_fork_server.dir/rule:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/ssl/CMakeFiles/ssl_fork_server.dir/rule
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/ssl/CMakeFiles/ssl_fork_server.dir/rule
 .PHONY : programs/ssl/CMakeFiles/ssl_fork_server.dir/rule
 
 # Convenience name for target.
@@ -303,12 +303,12 @@ ssl_fork_server: programs/ssl/CMakeFiles/ssl_fork_server.dir/rule
 
 # fast build rule for target.
 ssl_fork_server/fast:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_fork_server.dir/build.make programs/ssl/CMakeFiles/ssl_fork_server.dir/build
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_fork_server.dir/build.make programs/ssl/CMakeFiles/ssl_fork_server.dir/build
 .PHONY : ssl_fork_server/fast
 
 # Convenience name for target.
 programs/ssl/CMakeFiles/ssl_mail_client.dir/rule:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/ssl/CMakeFiles/ssl_mail_client.dir/rule
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/ssl/CMakeFiles/ssl_mail_client.dir/rule
 .PHONY : programs/ssl/CMakeFiles/ssl_mail_client.dir/rule
 
 # Convenience name for target.
@@ -318,7 +318,7 @@ ssl_mail_client: programs/ssl/CMakeFiles/ssl_mail_client.dir/rule
 
 # fast build rule for target.
 ssl_mail_client/fast:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_mail_client.dir/build.make programs/ssl/CMakeFiles/ssl_mail_client.dir/build
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_mail_client.dir/build.make programs/ssl/CMakeFiles/ssl_mail_client.dir/build
 .PHONY : ssl_mail_client/fast
 
 __/test/query_config.o: __/test/query_config.c.o
@@ -327,8 +327,8 @@ __/test/query_config.o: __/test/query_config.c.o
 
 # target to build an object file
 __/test/query_config.c.o:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_server2.dir/build.make programs/ssl/CMakeFiles/ssl_server2.dir/__/test/query_config.c.o
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_client2.dir/build.make programs/ssl/CMakeFiles/ssl_client2.dir/__/test/query_config.c.o
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_server2.dir/build.make programs/ssl/CMakeFiles/ssl_server2.dir/__/test/query_config.c.o
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_client2.dir/build.make programs/ssl/CMakeFiles/ssl_client2.dir/__/test/query_config.c.o
 .PHONY : __/test/query_config.c.o
 
 __/test/query_config.i: __/test/query_config.c.i
@@ -337,8 +337,8 @@ __/test/query_config.i: __/test/query_config.c.i
 
 # target to preprocess a source file
 __/test/query_config.c.i:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_server2.dir/build.make programs/ssl/CMakeFiles/ssl_server2.dir/__/test/query_config.c.i
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_client2.dir/build.make programs/ssl/CMakeFiles/ssl_client2.dir/__/test/query_config.c.i
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_server2.dir/build.make programs/ssl/CMakeFiles/ssl_server2.dir/__/test/query_config.c.i
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_client2.dir/build.make programs/ssl/CMakeFiles/ssl_client2.dir/__/test/query_config.c.i
 .PHONY : __/test/query_config.c.i
 
 __/test/query_config.s: __/test/query_config.c.s
@@ -347,8 +347,8 @@ __/test/query_config.s: __/test/query_config.c.s
 
 # target to generate assembly for a file
 __/test/query_config.c.s:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_server2.dir/build.make programs/ssl/CMakeFiles/ssl_server2.dir/__/test/query_config.c.s
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_client2.dir/build.make programs/ssl/CMakeFiles/ssl_client2.dir/__/test/query_config.c.s
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_server2.dir/build.make programs/ssl/CMakeFiles/ssl_server2.dir/__/test/query_config.c.s
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_client2.dir/build.make programs/ssl/CMakeFiles/ssl_client2.dir/__/test/query_config.c.s
 .PHONY : __/test/query_config.c.s
 
 dtls_client.o: dtls_client.c.o
@@ -357,7 +357,7 @@ dtls_client.o: dtls_client.c.o
 
 # target to build an object file
 dtls_client.c.o:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/dtls_client.dir/build.make programs/ssl/CMakeFiles/dtls_client.dir/dtls_client.c.o
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/dtls_client.dir/build.make programs/ssl/CMakeFiles/dtls_client.dir/dtls_client.c.o
 .PHONY : dtls_client.c.o
 
 dtls_client.i: dtls_client.c.i
@@ -366,7 +366,7 @@ dtls_client.i: dtls_client.c.i
 
 # target to preprocess a source file
 dtls_client.c.i:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/dtls_client.dir/build.make programs/ssl/CMakeFiles/dtls_client.dir/dtls_client.c.i
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/dtls_client.dir/build.make programs/ssl/CMakeFiles/dtls_client.dir/dtls_client.c.i
 .PHONY : dtls_client.c.i
 
 dtls_client.s: dtls_client.c.s
@@ -375,7 +375,7 @@ dtls_client.s: dtls_client.c.s
 
 # target to generate assembly for a file
 dtls_client.c.s:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/dtls_client.dir/build.make programs/ssl/CMakeFiles/dtls_client.dir/dtls_client.c.s
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/dtls_client.dir/build.make programs/ssl/CMakeFiles/dtls_client.dir/dtls_client.c.s
 .PHONY : dtls_client.c.s
 
 dtls_server.o: dtls_server.c.o
@@ -384,7 +384,7 @@ dtls_server.o: dtls_server.c.o
 
 # target to build an object file
 dtls_server.c.o:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/dtls_server.dir/build.make programs/ssl/CMakeFiles/dtls_server.dir/dtls_server.c.o
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/dtls_server.dir/build.make programs/ssl/CMakeFiles/dtls_server.dir/dtls_server.c.o
 .PHONY : dtls_server.c.o
 
 dtls_server.i: dtls_server.c.i
@@ -393,7 +393,7 @@ dtls_server.i: dtls_server.c.i
 
 # target to preprocess a source file
 dtls_server.c.i:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/dtls_server.dir/build.make programs/ssl/CMakeFiles/dtls_server.dir/dtls_server.c.i
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/dtls_server.dir/build.make programs/ssl/CMakeFiles/dtls_server.dir/dtls_server.c.i
 .PHONY : dtls_server.c.i
 
 dtls_server.s: dtls_server.c.s
@@ -402,7 +402,7 @@ dtls_server.s: dtls_server.c.s
 
 # target to generate assembly for a file
 dtls_server.c.s:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/dtls_server.dir/build.make programs/ssl/CMakeFiles/dtls_server.dir/dtls_server.c.s
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/dtls_server.dir/build.make programs/ssl/CMakeFiles/dtls_server.dir/dtls_server.c.s
 .PHONY : dtls_server.c.s
 
 mini_client.o: mini_client.c.o
@@ -411,7 +411,7 @@ mini_client.o: mini_client.c.o
 
 # target to build an object file
 mini_client.c.o:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/mini_client.dir/build.make programs/ssl/CMakeFiles/mini_client.dir/mini_client.c.o
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/mini_client.dir/build.make programs/ssl/CMakeFiles/mini_client.dir/mini_client.c.o
 .PHONY : mini_client.c.o
 
 mini_client.i: mini_client.c.i
@@ -420,7 +420,7 @@ mini_client.i: mini_client.c.i
 
 # target to preprocess a source file
 mini_client.c.i:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/mini_client.dir/build.make programs/ssl/CMakeFiles/mini_client.dir/mini_client.c.i
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/mini_client.dir/build.make programs/ssl/CMakeFiles/mini_client.dir/mini_client.c.i
 .PHONY : mini_client.c.i
 
 mini_client.s: mini_client.c.s
@@ -429,7 +429,7 @@ mini_client.s: mini_client.c.s
 
 # target to generate assembly for a file
 mini_client.c.s:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/mini_client.dir/build.make programs/ssl/CMakeFiles/mini_client.dir/mini_client.c.s
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/mini_client.dir/build.make programs/ssl/CMakeFiles/mini_client.dir/mini_client.c.s
 .PHONY : mini_client.c.s
 
 ssl_client1.o: ssl_client1.c.o
@@ -438,7 +438,7 @@ ssl_client1.o: ssl_client1.c.o
 
 # target to build an object file
 ssl_client1.c.o:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_client1.dir/build.make programs/ssl/CMakeFiles/ssl_client1.dir/ssl_client1.c.o
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_client1.dir/build.make programs/ssl/CMakeFiles/ssl_client1.dir/ssl_client1.c.o
 .PHONY : ssl_client1.c.o
 
 ssl_client1.i: ssl_client1.c.i
@@ -447,7 +447,7 @@ ssl_client1.i: ssl_client1.c.i
 
 # target to preprocess a source file
 ssl_client1.c.i:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_client1.dir/build.make programs/ssl/CMakeFiles/ssl_client1.dir/ssl_client1.c.i
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_client1.dir/build.make programs/ssl/CMakeFiles/ssl_client1.dir/ssl_client1.c.i
 .PHONY : ssl_client1.c.i
 
 ssl_client1.s: ssl_client1.c.s
@@ -456,7 +456,7 @@ ssl_client1.s: ssl_client1.c.s
 
 # target to generate assembly for a file
 ssl_client1.c.s:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_client1.dir/build.make programs/ssl/CMakeFiles/ssl_client1.dir/ssl_client1.c.s
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_client1.dir/build.make programs/ssl/CMakeFiles/ssl_client1.dir/ssl_client1.c.s
 .PHONY : ssl_client1.c.s
 
 ssl_client2.o: ssl_client2.c.o
@@ -465,7 +465,7 @@ ssl_client2.o: ssl_client2.c.o
 
 # target to build an object file
 ssl_client2.c.o:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_client2.dir/build.make programs/ssl/CMakeFiles/ssl_client2.dir/ssl_client2.c.o
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_client2.dir/build.make programs/ssl/CMakeFiles/ssl_client2.dir/ssl_client2.c.o
 .PHONY : ssl_client2.c.o
 
 ssl_client2.i: ssl_client2.c.i
@@ -474,7 +474,7 @@ ssl_client2.i: ssl_client2.c.i
 
 # target to preprocess a source file
 ssl_client2.c.i:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_client2.dir/build.make programs/ssl/CMakeFiles/ssl_client2.dir/ssl_client2.c.i
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_client2.dir/build.make programs/ssl/CMakeFiles/ssl_client2.dir/ssl_client2.c.i
 .PHONY : ssl_client2.c.i
 
 ssl_client2.s: ssl_client2.c.s
@@ -483,7 +483,7 @@ ssl_client2.s: ssl_client2.c.s
 
 # target to generate assembly for a file
 ssl_client2.c.s:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_client2.dir/build.make programs/ssl/CMakeFiles/ssl_client2.dir/ssl_client2.c.s
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_client2.dir/build.make programs/ssl/CMakeFiles/ssl_client2.dir/ssl_client2.c.s
 .PHONY : ssl_client2.c.s
 
 ssl_context_info.o: ssl_context_info.c.o
@@ -492,7 +492,7 @@ ssl_context_info.o: ssl_context_info.c.o
 
 # target to build an object file
 ssl_context_info.c.o:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_context_info.dir/build.make programs/ssl/CMakeFiles/ssl_context_info.dir/ssl_context_info.c.o
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_context_info.dir/build.make programs/ssl/CMakeFiles/ssl_context_info.dir/ssl_context_info.c.o
 .PHONY : ssl_context_info.c.o
 
 ssl_context_info.i: ssl_context_info.c.i
@@ -501,7 +501,7 @@ ssl_context_info.i: ssl_context_info.c.i
 
 # target to preprocess a source file
 ssl_context_info.c.i:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_context_info.dir/build.make programs/ssl/CMakeFiles/ssl_context_info.dir/ssl_context_info.c.i
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_context_info.dir/build.make programs/ssl/CMakeFiles/ssl_context_info.dir/ssl_context_info.c.i
 .PHONY : ssl_context_info.c.i
 
 ssl_context_info.s: ssl_context_info.c.s
@@ -510,7 +510,7 @@ ssl_context_info.s: ssl_context_info.c.s
 
 # target to generate assembly for a file
 ssl_context_info.c.s:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_context_info.dir/build.make programs/ssl/CMakeFiles/ssl_context_info.dir/ssl_context_info.c.s
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_context_info.dir/build.make programs/ssl/CMakeFiles/ssl_context_info.dir/ssl_context_info.c.s
 .PHONY : ssl_context_info.c.s
 
 ssl_fork_server.o: ssl_fork_server.c.o
@@ -519,7 +519,7 @@ ssl_fork_server.o: ssl_fork_server.c.o
 
 # target to build an object file
 ssl_fork_server.c.o:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_fork_server.dir/build.make programs/ssl/CMakeFiles/ssl_fork_server.dir/ssl_fork_server.c.o
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_fork_server.dir/build.make programs/ssl/CMakeFiles/ssl_fork_server.dir/ssl_fork_server.c.o
 .PHONY : ssl_fork_server.c.o
 
 ssl_fork_server.i: ssl_fork_server.c.i
@@ -528,7 +528,7 @@ ssl_fork_server.i: ssl_fork_server.c.i
 
 # target to preprocess a source file
 ssl_fork_server.c.i:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_fork_server.dir/build.make programs/ssl/CMakeFiles/ssl_fork_server.dir/ssl_fork_server.c.i
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_fork_server.dir/build.make programs/ssl/CMakeFiles/ssl_fork_server.dir/ssl_fork_server.c.i
 .PHONY : ssl_fork_server.c.i
 
 ssl_fork_server.s: ssl_fork_server.c.s
@@ -537,7 +537,7 @@ ssl_fork_server.s: ssl_fork_server.c.s
 
 # target to generate assembly for a file
 ssl_fork_server.c.s:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_fork_server.dir/build.make programs/ssl/CMakeFiles/ssl_fork_server.dir/ssl_fork_server.c.s
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_fork_server.dir/build.make programs/ssl/CMakeFiles/ssl_fork_server.dir/ssl_fork_server.c.s
 .PHONY : ssl_fork_server.c.s
 
 ssl_mail_client.o: ssl_mail_client.c.o
@@ -546,7 +546,7 @@ ssl_mail_client.o: ssl_mail_client.c.o
 
 # target to build an object file
 ssl_mail_client.c.o:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_mail_client.dir/build.make programs/ssl/CMakeFiles/ssl_mail_client.dir/ssl_mail_client.c.o
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_mail_client.dir/build.make programs/ssl/CMakeFiles/ssl_mail_client.dir/ssl_mail_client.c.o
 .PHONY : ssl_mail_client.c.o
 
 ssl_mail_client.i: ssl_mail_client.c.i
@@ -555,7 +555,7 @@ ssl_mail_client.i: ssl_mail_client.c.i
 
 # target to preprocess a source file
 ssl_mail_client.c.i:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_mail_client.dir/build.make programs/ssl/CMakeFiles/ssl_mail_client.dir/ssl_mail_client.c.i
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_mail_client.dir/build.make programs/ssl/CMakeFiles/ssl_mail_client.dir/ssl_mail_client.c.i
 .PHONY : ssl_mail_client.c.i
 
 ssl_mail_client.s: ssl_mail_client.c.s
@@ -564,7 +564,7 @@ ssl_mail_client.s: ssl_mail_client.c.s
 
 # target to generate assembly for a file
 ssl_mail_client.c.s:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_mail_client.dir/build.make programs/ssl/CMakeFiles/ssl_mail_client.dir/ssl_mail_client.c.s
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_mail_client.dir/build.make programs/ssl/CMakeFiles/ssl_mail_client.dir/ssl_mail_client.c.s
 .PHONY : ssl_mail_client.c.s
 
 ssl_pthread_server.o: ssl_pthread_server.c.o
@@ -573,7 +573,7 @@ ssl_pthread_server.o: ssl_pthread_server.c.o
 
 # target to build an object file
 ssl_pthread_server.c.o:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_pthread_server.dir/build.make programs/ssl/CMakeFiles/ssl_pthread_server.dir/ssl_pthread_server.c.o
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_pthread_server.dir/build.make programs/ssl/CMakeFiles/ssl_pthread_server.dir/ssl_pthread_server.c.o
 .PHONY : ssl_pthread_server.c.o
 
 ssl_pthread_server.i: ssl_pthread_server.c.i
@@ -582,7 +582,7 @@ ssl_pthread_server.i: ssl_pthread_server.c.i
 
 # target to preprocess a source file
 ssl_pthread_server.c.i:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_pthread_server.dir/build.make programs/ssl/CMakeFiles/ssl_pthread_server.dir/ssl_pthread_server.c.i
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_pthread_server.dir/build.make programs/ssl/CMakeFiles/ssl_pthread_server.dir/ssl_pthread_server.c.i
 .PHONY : ssl_pthread_server.c.i
 
 ssl_pthread_server.s: ssl_pthread_server.c.s
@@ -591,7 +591,7 @@ ssl_pthread_server.s: ssl_pthread_server.c.s
 
 # target to generate assembly for a file
 ssl_pthread_server.c.s:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_pthread_server.dir/build.make programs/ssl/CMakeFiles/ssl_pthread_server.dir/ssl_pthread_server.c.s
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_pthread_server.dir/build.make programs/ssl/CMakeFiles/ssl_pthread_server.dir/ssl_pthread_server.c.s
 .PHONY : ssl_pthread_server.c.s
 
 ssl_server.o: ssl_server.c.o
@@ -600,7 +600,7 @@ ssl_server.o: ssl_server.c.o
 
 # target to build an object file
 ssl_server.c.o:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_server.dir/build.make programs/ssl/CMakeFiles/ssl_server.dir/ssl_server.c.o
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_server.dir/build.make programs/ssl/CMakeFiles/ssl_server.dir/ssl_server.c.o
 .PHONY : ssl_server.c.o
 
 ssl_server.i: ssl_server.c.i
@@ -609,7 +609,7 @@ ssl_server.i: ssl_server.c.i
 
 # target to preprocess a source file
 ssl_server.c.i:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_server.dir/build.make programs/ssl/CMakeFiles/ssl_server.dir/ssl_server.c.i
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_server.dir/build.make programs/ssl/CMakeFiles/ssl_server.dir/ssl_server.c.i
 .PHONY : ssl_server.c.i
 
 ssl_server.s: ssl_server.c.s
@@ -618,7 +618,7 @@ ssl_server.s: ssl_server.c.s
 
 # target to generate assembly for a file
 ssl_server.c.s:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_server.dir/build.make programs/ssl/CMakeFiles/ssl_server.dir/ssl_server.c.s
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_server.dir/build.make programs/ssl/CMakeFiles/ssl_server.dir/ssl_server.c.s
 .PHONY : ssl_server.c.s
 
 ssl_server2.o: ssl_server2.c.o
@@ -627,7 +627,7 @@ ssl_server2.o: ssl_server2.c.o
 
 # target to build an object file
 ssl_server2.c.o:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_server2.dir/build.make programs/ssl/CMakeFiles/ssl_server2.dir/ssl_server2.c.o
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_server2.dir/build.make programs/ssl/CMakeFiles/ssl_server2.dir/ssl_server2.c.o
 .PHONY : ssl_server2.c.o
 
 ssl_server2.i: ssl_server2.c.i
@@ -636,7 +636,7 @@ ssl_server2.i: ssl_server2.c.i
 
 # target to preprocess a source file
 ssl_server2.c.i:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_server2.dir/build.make programs/ssl/CMakeFiles/ssl_server2.dir/ssl_server2.c.i
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_server2.dir/build.make programs/ssl/CMakeFiles/ssl_server2.dir/ssl_server2.c.i
 .PHONY : ssl_server2.c.i
 
 ssl_server2.s: ssl_server2.c.s
@@ -645,7 +645,7 @@ ssl_server2.s: ssl_server2.c.s
 
 # target to generate assembly for a file
 ssl_server2.c.s:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_server2.dir/build.make programs/ssl/CMakeFiles/ssl_server2.dir/ssl_server2.c.s
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_server2.dir/build.make programs/ssl/CMakeFiles/ssl_server2.dir/ssl_server2.c.s
 .PHONY : ssl_server2.c.s
 
 ssl_test_lib.o: ssl_test_lib.c.o
@@ -654,8 +654,8 @@ ssl_test_lib.o: ssl_test_lib.c.o
 
 # target to build an object file
 ssl_test_lib.c.o:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_server2.dir/build.make programs/ssl/CMakeFiles/ssl_server2.dir/ssl_test_lib.c.o
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_client2.dir/build.make programs/ssl/CMakeFiles/ssl_client2.dir/ssl_test_lib.c.o
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_server2.dir/build.make programs/ssl/CMakeFiles/ssl_server2.dir/ssl_test_lib.c.o
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_client2.dir/build.make programs/ssl/CMakeFiles/ssl_client2.dir/ssl_test_lib.c.o
 .PHONY : ssl_test_lib.c.o
 
 ssl_test_lib.i: ssl_test_lib.c.i
@@ -664,8 +664,8 @@ ssl_test_lib.i: ssl_test_lib.c.i
 
 # target to preprocess a source file
 ssl_test_lib.c.i:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_server2.dir/build.make programs/ssl/CMakeFiles/ssl_server2.dir/ssl_test_lib.c.i
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_client2.dir/build.make programs/ssl/CMakeFiles/ssl_client2.dir/ssl_test_lib.c.i
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_server2.dir/build.make programs/ssl/CMakeFiles/ssl_server2.dir/ssl_test_lib.c.i
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_client2.dir/build.make programs/ssl/CMakeFiles/ssl_client2.dir/ssl_test_lib.c.i
 .PHONY : ssl_test_lib.c.i
 
 ssl_test_lib.s: ssl_test_lib.c.s
@@ -674,8 +674,8 @@ ssl_test_lib.s: ssl_test_lib.c.s
 
 # target to generate assembly for a file
 ssl_test_lib.c.s:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_server2.dir/build.make programs/ssl/CMakeFiles/ssl_server2.dir/ssl_test_lib.c.s
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_client2.dir/build.make programs/ssl/CMakeFiles/ssl_client2.dir/ssl_test_lib.c.s
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_server2.dir/build.make programs/ssl/CMakeFiles/ssl_server2.dir/ssl_test_lib.c.s
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/ssl/CMakeFiles/ssl_client2.dir/build.make programs/ssl/CMakeFiles/ssl_client2.dir/ssl_test_lib.c.s
 .PHONY : ssl_test_lib.c.s
 
 # Help Target
@@ -751,6 +751,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

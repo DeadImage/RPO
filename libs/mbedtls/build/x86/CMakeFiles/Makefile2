@@ -45,19 +45,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake
+CMAKE_COMMAND = /home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake
 
 # The command to remove a file.
-RM = /home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E remove -f
+RM = /home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/mbedtls
+CMAKE_SOURCE_DIR = /home/ramazan/AndroidStudioProjects/libs/mbedtls/mbedtls
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86
+CMAKE_BINARY_DIR = /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86
 
 #=============================================================================
 # Target rules for target CMakeFiles/apidoc.dir
@@ -66,14 +66,14 @@ CMAKE_BINARY_DIR = /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86
 CMakeFiles/apidoc.dir/all:
 	$(MAKE) -f CMakeFiles/apidoc.dir/build.make CMakeFiles/apidoc.dir/depend
 	$(MAKE) -f CMakeFiles/apidoc.dir/build.make CMakeFiles/apidoc.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target apidoc"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target apidoc"
 .PHONY : CMakeFiles/apidoc.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/apidoc.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/apidoc.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : CMakeFiles/apidoc.dir/rule
 
 # Convenience name for target.
@@ -98,7 +98,7 @@ clean: CMakeFiles/apidoc.dir/clean
 CMakeFiles/mbedtls_test.dir/all:
 	$(MAKE) -f CMakeFiles/mbedtls_test.dir/build.make CMakeFiles/mbedtls_test.dir/depend
 	$(MAKE) -f CMakeFiles/mbedtls_test.dir/build.make CMakeFiles/mbedtls_test.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=73,74,75 "Built target mbedtls_test"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=73,74,75 "Built target mbedtls_test"
 .PHONY : CMakeFiles/mbedtls_test.dir/all
 
 # Include target in all.
@@ -108,9 +108,9 @@ all: CMakeFiles/mbedtls_test.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/mbedtls_test.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 3
 	$(MAKE) -f CMakeFiles/Makefile2 CMakeFiles/mbedtls_test.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : CMakeFiles/mbedtls_test.dir/rule
 
 # Convenience name for target.
@@ -200,7 +200,7 @@ library/preinstall:
 library/CMakeFiles/mbedx509_static.dir/all: library/CMakeFiles/mbedcrypto_static.dir/all
 	$(MAKE) -f library/CMakeFiles/mbedx509_static.dir/build.make library/CMakeFiles/mbedx509_static.dir/depend
 	$(MAKE) -f library/CMakeFiles/mbedx509_static.dir/build.make library/CMakeFiles/mbedx509_static.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=79,80,81 "Built target mbedx509_static"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=79,80,81 "Built target mbedx509_static"
 .PHONY : library/CMakeFiles/mbedx509_static.dir/all
 
 # Include target in all.
@@ -210,9 +210,9 @@ all: library/CMakeFiles/mbedx509_static.dir/all
 
 # Build rule for subdir invocation for target.
 library/CMakeFiles/mbedx509_static.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
 	$(MAKE) -f CMakeFiles/Makefile2 library/CMakeFiles/mbedx509_static.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : library/CMakeFiles/mbedx509_static.dir/rule
 
 # Convenience name for target.
@@ -238,7 +238,7 @@ library/CMakeFiles/mbedtls_static.dir/all: library/CMakeFiles/mbedx509_static.di
 library/CMakeFiles/mbedtls_static.dir/all: library/CMakeFiles/mbedcrypto_static.dir/all
 	$(MAKE) -f library/CMakeFiles/mbedtls_static.dir/build.make library/CMakeFiles/mbedtls_static.dir/depend
 	$(MAKE) -f library/CMakeFiles/mbedtls_static.dir/build.make library/CMakeFiles/mbedtls_static.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=70,71,72 "Built target mbedtls_static"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=70,71,72 "Built target mbedtls_static"
 .PHONY : library/CMakeFiles/mbedtls_static.dir/all
 
 # Include target in all.
@@ -248,9 +248,9 @@ all: library/CMakeFiles/mbedtls_static.dir/all
 
 # Build rule for subdir invocation for target.
 library/CMakeFiles/mbedtls_static.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 27
 	$(MAKE) -f CMakeFiles/Makefile2 library/CMakeFiles/mbedtls_static.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : library/CMakeFiles/mbedtls_static.dir/rule
 
 # Convenience name for target.
@@ -275,7 +275,7 @@ clean: library/CMakeFiles/mbedtls_static.dir/clean
 library/CMakeFiles/mbedcrypto.dir/all:
 	$(MAKE) -f library/CMakeFiles/mbedcrypto.dir/build.make library/CMakeFiles/mbedcrypto.dir/depend
 	$(MAKE) -f library/CMakeFiles/mbedcrypto.dir/build.make library/CMakeFiles/mbedcrypto.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44 "Built target mbedcrypto"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=24,25,26,27,28,29,30,31,32,33,34,35,36,37,38,39,40,41,42,43,44 "Built target mbedcrypto"
 .PHONY : library/CMakeFiles/mbedcrypto.dir/all
 
 # Include target in all.
@@ -285,9 +285,9 @@ all: library/CMakeFiles/mbedcrypto.dir/all
 
 # Build rule for subdir invocation for target.
 library/CMakeFiles/mbedcrypto.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 21
 	$(MAKE) -f CMakeFiles/Makefile2 library/CMakeFiles/mbedcrypto.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : library/CMakeFiles/mbedcrypto.dir/rule
 
 # Convenience name for target.
@@ -312,7 +312,7 @@ clean: library/CMakeFiles/mbedcrypto.dir/clean
 library/CMakeFiles/mbedx509.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f library/CMakeFiles/mbedx509.dir/build.make library/CMakeFiles/mbedx509.dir/depend
 	$(MAKE) -f library/CMakeFiles/mbedx509.dir/build.make library/CMakeFiles/mbedx509.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=76,77,78 "Built target mbedx509"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=76,77,78 "Built target mbedx509"
 .PHONY : library/CMakeFiles/mbedx509.dir/all
 
 # Include target in all.
@@ -322,9 +322,9 @@ all: library/CMakeFiles/mbedx509.dir/all
 
 # Build rule for subdir invocation for target.
 library/CMakeFiles/mbedx509.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
 	$(MAKE) -f CMakeFiles/Makefile2 library/CMakeFiles/mbedx509.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : library/CMakeFiles/mbedx509.dir/rule
 
 # Convenience name for target.
@@ -350,7 +350,7 @@ library/CMakeFiles/mbedtls.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 library/CMakeFiles/mbedtls.dir/all: library/CMakeFiles/mbedx509.dir/all
 	$(MAKE) -f library/CMakeFiles/mbedtls.dir/build.make library/CMakeFiles/mbedtls.dir/depend
 	$(MAKE) -f library/CMakeFiles/mbedtls.dir/build.make library/CMakeFiles/mbedtls.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=66,67,68,69 "Built target mbedtls"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=66,67,68,69 "Built target mbedtls"
 .PHONY : library/CMakeFiles/mbedtls.dir/all
 
 # Include target in all.
@@ -360,9 +360,9 @@ all: library/CMakeFiles/mbedtls.dir/all
 
 # Build rule for subdir invocation for target.
 library/CMakeFiles/mbedtls.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 library/CMakeFiles/mbedtls.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : library/CMakeFiles/mbedtls.dir/rule
 
 # Convenience name for target.
@@ -387,7 +387,7 @@ clean: library/CMakeFiles/mbedtls.dir/clean
 library/CMakeFiles/mbedcrypto_static.dir/all:
 	$(MAKE) -f library/CMakeFiles/mbedcrypto_static.dir/build.make library/CMakeFiles/mbedcrypto_static.dir/depend
 	$(MAKE) -f library/CMakeFiles/mbedcrypto_static.dir/build.make library/CMakeFiles/mbedcrypto_static.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65 "Built target mbedcrypto_static"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=45,46,47,48,49,50,51,52,53,54,55,56,57,58,59,60,61,62,63,64,65 "Built target mbedcrypto_static"
 .PHONY : library/CMakeFiles/mbedcrypto_static.dir/all
 
 # Include target in all.
@@ -397,9 +397,9 @@ all: library/CMakeFiles/mbedcrypto_static.dir/all
 
 # Build rule for subdir invocation for target.
 library/CMakeFiles/mbedcrypto_static.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 21
 	$(MAKE) -f CMakeFiles/Makefile2 library/CMakeFiles/mbedcrypto_static.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : library/CMakeFiles/mbedcrypto_static.dir/rule
 
 # Convenience name for target.
@@ -429,14 +429,14 @@ library/CMakeFiles/lib.dir/all: library/CMakeFiles/mbedtls.dir/all
 library/CMakeFiles/lib.dir/all: library/CMakeFiles/mbedcrypto_static.dir/all
 	$(MAKE) -f library/CMakeFiles/lib.dir/build.make library/CMakeFiles/lib.dir/depend
 	$(MAKE) -f library/CMakeFiles/lib.dir/build.make library/CMakeFiles/lib.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target lib"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target lib"
 .PHONY : library/CMakeFiles/lib.dir/all
 
 # Build rule for subdir invocation for target.
 library/CMakeFiles/lib.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 55
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 55
 	$(MAKE) -f CMakeFiles/Makefile2 library/CMakeFiles/lib.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : library/CMakeFiles/lib.dir/rule
 
 # Convenience name for target.
@@ -527,7 +527,7 @@ programs/aes/CMakeFiles/crypt_and_hash.dir/all: CMakeFiles/mbedtls_test.dir/all
 programs/aes/CMakeFiles/crypt_and_hash.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f programs/aes/CMakeFiles/crypt_and_hash.dir/build.make programs/aes/CMakeFiles/crypt_and_hash.dir/depend
 	$(MAKE) -f programs/aes/CMakeFiles/crypt_and_hash.dir/build.make programs/aes/CMakeFiles/crypt_and_hash.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=4 "Built target crypt_and_hash"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=4 "Built target crypt_and_hash"
 .PHONY : programs/aes/CMakeFiles/crypt_and_hash.dir/all
 
 # Include target in all.
@@ -537,9 +537,9 @@ all: programs/aes/CMakeFiles/crypt_and_hash.dir/all
 
 # Build rule for subdir invocation for target.
 programs/aes/CMakeFiles/crypt_and_hash.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 programs/aes/CMakeFiles/crypt_and_hash.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/aes/CMakeFiles/crypt_and_hash.dir/rule
 
 # Convenience name for target.
@@ -565,7 +565,7 @@ programs/aes/CMakeFiles/aescrypt2.dir/all: CMakeFiles/mbedtls_test.dir/all
 programs/aes/CMakeFiles/aescrypt2.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f programs/aes/CMakeFiles/aescrypt2.dir/build.make programs/aes/CMakeFiles/aescrypt2.dir/depend
 	$(MAKE) -f programs/aes/CMakeFiles/aescrypt2.dir/build.make programs/aes/CMakeFiles/aescrypt2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target aescrypt2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target aescrypt2"
 .PHONY : programs/aes/CMakeFiles/aescrypt2.dir/all
 
 # Include target in all.
@@ -575,9 +575,9 @@ all: programs/aes/CMakeFiles/aescrypt2.dir/all
 
 # Build rule for subdir invocation for target.
 programs/aes/CMakeFiles/aescrypt2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
 	$(MAKE) -f CMakeFiles/Makefile2 programs/aes/CMakeFiles/aescrypt2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/aes/CMakeFiles/aescrypt2.dir/rule
 
 # Convenience name for target.
@@ -639,7 +639,7 @@ programs/fuzz/CMakeFiles/fuzz_privkey.dir/all: library/CMakeFiles/mbedx509.dir/a
 programs/fuzz/CMakeFiles/fuzz_privkey.dir/all: library/CMakeFiles/mbedtls.dir/all
 	$(MAKE) -f programs/fuzz/CMakeFiles/fuzz_privkey.dir/build.make programs/fuzz/CMakeFiles/fuzz_privkey.dir/depend
 	$(MAKE) -f programs/fuzz/CMakeFiles/fuzz_privkey.dir/build.make programs/fuzz/CMakeFiles/fuzz_privkey.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=13 "Built target fuzz_privkey"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=13 "Built target fuzz_privkey"
 .PHONY : programs/fuzz/CMakeFiles/fuzz_privkey.dir/all
 
 # Include target in all.
@@ -649,9 +649,9 @@ all: programs/fuzz/CMakeFiles/fuzz_privkey.dir/all
 
 # Build rule for subdir invocation for target.
 programs/fuzz/CMakeFiles/fuzz_privkey.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 programs/fuzz/CMakeFiles/fuzz_privkey.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/fuzz/CMakeFiles/fuzz_privkey.dir/rule
 
 # Convenience name for target.
@@ -679,7 +679,7 @@ programs/fuzz/CMakeFiles/fuzz_x509crl.dir/all: library/CMakeFiles/mbedx509.dir/a
 programs/fuzz/CMakeFiles/fuzz_x509crl.dir/all: library/CMakeFiles/mbedtls.dir/all
 	$(MAKE) -f programs/fuzz/CMakeFiles/fuzz_x509crl.dir/build.make programs/fuzz/CMakeFiles/fuzz_x509crl.dir/depend
 	$(MAKE) -f programs/fuzz/CMakeFiles/fuzz_x509crl.dir/build.make programs/fuzz/CMakeFiles/fuzz_x509crl.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=16 "Built target fuzz_x509crl"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=16 "Built target fuzz_x509crl"
 .PHONY : programs/fuzz/CMakeFiles/fuzz_x509crl.dir/all
 
 # Include target in all.
@@ -689,9 +689,9 @@ all: programs/fuzz/CMakeFiles/fuzz_x509crl.dir/all
 
 # Build rule for subdir invocation for target.
 programs/fuzz/CMakeFiles/fuzz_x509crl.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 programs/fuzz/CMakeFiles/fuzz_x509crl.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/fuzz/CMakeFiles/fuzz_x509crl.dir/rule
 
 # Convenience name for target.
@@ -719,7 +719,7 @@ programs/fuzz/CMakeFiles/fuzz_pubkey.dir/all: library/CMakeFiles/mbedx509.dir/al
 programs/fuzz/CMakeFiles/fuzz_pubkey.dir/all: library/CMakeFiles/mbedtls.dir/all
 	$(MAKE) -f programs/fuzz/CMakeFiles/fuzz_pubkey.dir/build.make programs/fuzz/CMakeFiles/fuzz_pubkey.dir/depend
 	$(MAKE) -f programs/fuzz/CMakeFiles/fuzz_pubkey.dir/build.make programs/fuzz/CMakeFiles/fuzz_pubkey.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=14 "Built target fuzz_pubkey"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=14 "Built target fuzz_pubkey"
 .PHONY : programs/fuzz/CMakeFiles/fuzz_pubkey.dir/all
 
 # Include target in all.
@@ -729,9 +729,9 @@ all: programs/fuzz/CMakeFiles/fuzz_pubkey.dir/all
 
 # Build rule for subdir invocation for target.
 programs/fuzz/CMakeFiles/fuzz_pubkey.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 programs/fuzz/CMakeFiles/fuzz_pubkey.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/fuzz/CMakeFiles/fuzz_pubkey.dir/rule
 
 # Convenience name for target.
@@ -759,7 +759,7 @@ programs/fuzz/CMakeFiles/fuzz_x509csr.dir/all: library/CMakeFiles/mbedx509.dir/a
 programs/fuzz/CMakeFiles/fuzz_x509csr.dir/all: library/CMakeFiles/mbedtls.dir/all
 	$(MAKE) -f programs/fuzz/CMakeFiles/fuzz_x509csr.dir/build.make programs/fuzz/CMakeFiles/fuzz_x509csr.dir/depend
 	$(MAKE) -f programs/fuzz/CMakeFiles/fuzz_x509csr.dir/build.make programs/fuzz/CMakeFiles/fuzz_x509csr.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=18 "Built target fuzz_x509csr"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=18 "Built target fuzz_x509csr"
 .PHONY : programs/fuzz/CMakeFiles/fuzz_x509csr.dir/all
 
 # Include target in all.
@@ -769,9 +769,9 @@ all: programs/fuzz/CMakeFiles/fuzz_x509csr.dir/all
 
 # Build rule for subdir invocation for target.
 programs/fuzz/CMakeFiles/fuzz_x509csr.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 programs/fuzz/CMakeFiles/fuzz_x509csr.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/fuzz/CMakeFiles/fuzz_x509csr.dir/rule
 
 # Convenience name for target.
@@ -799,7 +799,7 @@ programs/fuzz/CMakeFiles/fuzz_client.dir/all: library/CMakeFiles/mbedx509.dir/al
 programs/fuzz/CMakeFiles/fuzz_client.dir/all: library/CMakeFiles/mbedtls.dir/all
 	$(MAKE) -f programs/fuzz/CMakeFiles/fuzz_client.dir/build.make programs/fuzz/CMakeFiles/fuzz_client.dir/depend
 	$(MAKE) -f programs/fuzz/CMakeFiles/fuzz_client.dir/build.make programs/fuzz/CMakeFiles/fuzz_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=9,10 "Built target fuzz_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=9,10 "Built target fuzz_client"
 .PHONY : programs/fuzz/CMakeFiles/fuzz_client.dir/all
 
 # Include target in all.
@@ -809,9 +809,9 @@ all: programs/fuzz/CMakeFiles/fuzz_client.dir/all
 
 # Build rule for subdir invocation for target.
 programs/fuzz/CMakeFiles/fuzz_client.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 33
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 33
 	$(MAKE) -f CMakeFiles/Makefile2 programs/fuzz/CMakeFiles/fuzz_client.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/fuzz/CMakeFiles/fuzz_client.dir/rule
 
 # Convenience name for target.
@@ -839,7 +839,7 @@ programs/fuzz/CMakeFiles/fuzz_dtlsserver.dir/all: library/CMakeFiles/mbedx509.di
 programs/fuzz/CMakeFiles/fuzz_dtlsserver.dir/all: library/CMakeFiles/mbedtls.dir/all
 	$(MAKE) -f programs/fuzz/CMakeFiles/fuzz_dtlsserver.dir/build.make programs/fuzz/CMakeFiles/fuzz_dtlsserver.dir/depend
 	$(MAKE) -f programs/fuzz/CMakeFiles/fuzz_dtlsserver.dir/build.make programs/fuzz/CMakeFiles/fuzz_dtlsserver.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=12 "Built target fuzz_dtlsserver"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=12 "Built target fuzz_dtlsserver"
 .PHONY : programs/fuzz/CMakeFiles/fuzz_dtlsserver.dir/all
 
 # Include target in all.
@@ -849,9 +849,9 @@ all: programs/fuzz/CMakeFiles/fuzz_dtlsserver.dir/all
 
 # Build rule for subdir invocation for target.
 programs/fuzz/CMakeFiles/fuzz_dtlsserver.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 programs/fuzz/CMakeFiles/fuzz_dtlsserver.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/fuzz/CMakeFiles/fuzz_dtlsserver.dir/rule
 
 # Convenience name for target.
@@ -879,7 +879,7 @@ programs/fuzz/CMakeFiles/fuzz_dtlsclient.dir/all: library/CMakeFiles/mbedx509.di
 programs/fuzz/CMakeFiles/fuzz_dtlsclient.dir/all: library/CMakeFiles/mbedtls.dir/all
 	$(MAKE) -f programs/fuzz/CMakeFiles/fuzz_dtlsclient.dir/build.make programs/fuzz/CMakeFiles/fuzz_dtlsclient.dir/depend
 	$(MAKE) -f programs/fuzz/CMakeFiles/fuzz_dtlsclient.dir/build.make programs/fuzz/CMakeFiles/fuzz_dtlsclient.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=11 "Built target fuzz_dtlsclient"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=11 "Built target fuzz_dtlsclient"
 .PHONY : programs/fuzz/CMakeFiles/fuzz_dtlsclient.dir/all
 
 # Include target in all.
@@ -889,9 +889,9 @@ all: programs/fuzz/CMakeFiles/fuzz_dtlsclient.dir/all
 
 # Build rule for subdir invocation for target.
 programs/fuzz/CMakeFiles/fuzz_dtlsclient.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 programs/fuzz/CMakeFiles/fuzz_dtlsclient.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/fuzz/CMakeFiles/fuzz_dtlsclient.dir/rule
 
 # Convenience name for target.
@@ -919,7 +919,7 @@ programs/fuzz/CMakeFiles/fuzz_x509crt.dir/all: library/CMakeFiles/mbedx509.dir/a
 programs/fuzz/CMakeFiles/fuzz_x509crt.dir/all: library/CMakeFiles/mbedtls.dir/all
 	$(MAKE) -f programs/fuzz/CMakeFiles/fuzz_x509crt.dir/build.make programs/fuzz/CMakeFiles/fuzz_x509crt.dir/depend
 	$(MAKE) -f programs/fuzz/CMakeFiles/fuzz_x509crt.dir/build.make programs/fuzz/CMakeFiles/fuzz_x509crt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=17 "Built target fuzz_x509crt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=17 "Built target fuzz_x509crt"
 .PHONY : programs/fuzz/CMakeFiles/fuzz_x509crt.dir/all
 
 # Include target in all.
@@ -929,9 +929,9 @@ all: programs/fuzz/CMakeFiles/fuzz_x509crt.dir/all
 
 # Build rule for subdir invocation for target.
 programs/fuzz/CMakeFiles/fuzz_x509crt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 programs/fuzz/CMakeFiles/fuzz_x509crt.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/fuzz/CMakeFiles/fuzz_x509crt.dir/rule
 
 # Convenience name for target.
@@ -959,7 +959,7 @@ programs/fuzz/CMakeFiles/fuzz_server.dir/all: library/CMakeFiles/mbedx509.dir/al
 programs/fuzz/CMakeFiles/fuzz_server.dir/all: library/CMakeFiles/mbedtls.dir/all
 	$(MAKE) -f programs/fuzz/CMakeFiles/fuzz_server.dir/build.make programs/fuzz/CMakeFiles/fuzz_server.dir/depend
 	$(MAKE) -f programs/fuzz/CMakeFiles/fuzz_server.dir/build.make programs/fuzz/CMakeFiles/fuzz_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=15 "Built target fuzz_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=15 "Built target fuzz_server"
 .PHONY : programs/fuzz/CMakeFiles/fuzz_server.dir/all
 
 # Include target in all.
@@ -969,9 +969,9 @@ all: programs/fuzz/CMakeFiles/fuzz_server.dir/all
 
 # Build rule for subdir invocation for target.
 programs/fuzz/CMakeFiles/fuzz_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 programs/fuzz/CMakeFiles/fuzz_server.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/fuzz/CMakeFiles/fuzz_server.dir/rule
 
 # Convenience name for target.
@@ -1017,7 +1017,7 @@ programs/hash/CMakeFiles/hello.dir/all: CMakeFiles/mbedtls_test.dir/all
 programs/hash/CMakeFiles/hello.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f programs/hash/CMakeFiles/hello.dir/build.make programs/hash/CMakeFiles/hello.dir/depend
 	$(MAKE) -f programs/hash/CMakeFiles/hello.dir/build.make programs/hash/CMakeFiles/hello.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target hello"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target hello"
 .PHONY : programs/hash/CMakeFiles/hello.dir/all
 
 # Include target in all.
@@ -1027,9 +1027,9 @@ all: programs/hash/CMakeFiles/hello.dir/all
 
 # Build rule for subdir invocation for target.
 programs/hash/CMakeFiles/hello.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
 	$(MAKE) -f CMakeFiles/Makefile2 programs/hash/CMakeFiles/hello.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/hash/CMakeFiles/hello.dir/rule
 
 # Convenience name for target.
@@ -1055,7 +1055,7 @@ programs/hash/CMakeFiles/generic_sum.dir/all: CMakeFiles/mbedtls_test.dir/all
 programs/hash/CMakeFiles/generic_sum.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f programs/hash/CMakeFiles/generic_sum.dir/build.make programs/hash/CMakeFiles/generic_sum.dir/depend
 	$(MAKE) -f programs/hash/CMakeFiles/generic_sum.dir/build.make programs/hash/CMakeFiles/generic_sum.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=21 "Built target generic_sum"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=21 "Built target generic_sum"
 .PHONY : programs/hash/CMakeFiles/generic_sum.dir/all
 
 # Include target in all.
@@ -1065,9 +1065,9 @@ all: programs/hash/CMakeFiles/generic_sum.dir/all
 
 # Build rule for subdir invocation for target.
 programs/hash/CMakeFiles/generic_sum.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 programs/hash/CMakeFiles/generic_sum.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/hash/CMakeFiles/generic_sum.dir/rule
 
 # Convenience name for target.
@@ -1149,7 +1149,7 @@ programs/pkey/CMakeFiles/mpi_demo.dir/all: CMakeFiles/mbedtls_test.dir/all
 programs/pkey/CMakeFiles/mpi_demo.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f programs/pkey/CMakeFiles/mpi_demo.dir/build.make programs/pkey/CMakeFiles/mpi_demo.dir/depend
 	$(MAKE) -f programs/pkey/CMakeFiles/mpi_demo.dir/build.make programs/pkey/CMakeFiles/mpi_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=82 "Built target mpi_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=82 "Built target mpi_demo"
 .PHONY : programs/pkey/CMakeFiles/mpi_demo.dir/all
 
 # Include target in all.
@@ -1159,9 +1159,9 @@ all: programs/pkey/CMakeFiles/mpi_demo.dir/all
 
 # Build rule for subdir invocation for target.
 programs/pkey/CMakeFiles/mpi_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 programs/pkey/CMakeFiles/mpi_demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/pkey/CMakeFiles/mpi_demo.dir/rule
 
 # Convenience name for target.
@@ -1187,7 +1187,7 @@ programs/pkey/CMakeFiles/key_app.dir/all: CMakeFiles/mbedtls_test.dir/all
 programs/pkey/CMakeFiles/key_app.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f programs/pkey/CMakeFiles/key_app.dir/build.make programs/pkey/CMakeFiles/key_app.dir/depend
 	$(MAKE) -f programs/pkey/CMakeFiles/key_app.dir/build.make programs/pkey/CMakeFiles/key_app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=22 "Built target key_app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=22 "Built target key_app"
 .PHONY : programs/pkey/CMakeFiles/key_app.dir/all
 
 # Include target in all.
@@ -1197,9 +1197,9 @@ all: programs/pkey/CMakeFiles/key_app.dir/all
 
 # Build rule for subdir invocation for target.
 programs/pkey/CMakeFiles/key_app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 programs/pkey/CMakeFiles/key_app.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/pkey/CMakeFiles/key_app.dir/rule
 
 # Convenience name for target.
@@ -1225,7 +1225,7 @@ programs/pkey/CMakeFiles/gen_key.dir/all: CMakeFiles/mbedtls_test.dir/all
 programs/pkey/CMakeFiles/gen_key.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f programs/pkey/CMakeFiles/gen_key.dir/build.make programs/pkey/CMakeFiles/gen_key.dir/depend
 	$(MAKE) -f programs/pkey/CMakeFiles/gen_key.dir/build.make programs/pkey/CMakeFiles/gen_key.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=19 "Built target gen_key"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=19 "Built target gen_key"
 .PHONY : programs/pkey/CMakeFiles/gen_key.dir/all
 
 # Include target in all.
@@ -1235,9 +1235,9 @@ all: programs/pkey/CMakeFiles/gen_key.dir/all
 
 # Build rule for subdir invocation for target.
 programs/pkey/CMakeFiles/gen_key.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 programs/pkey/CMakeFiles/gen_key.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/pkey/CMakeFiles/gen_key.dir/rule
 
 # Convenience name for target.
@@ -1263,7 +1263,7 @@ programs/pkey/CMakeFiles/ecdh_curve25519.dir/all: CMakeFiles/mbedtls_test.dir/al
 programs/pkey/CMakeFiles/ecdh_curve25519.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f programs/pkey/CMakeFiles/ecdh_curve25519.dir/build.make programs/pkey/CMakeFiles/ecdh_curve25519.dir/depend
 	$(MAKE) -f programs/pkey/CMakeFiles/ecdh_curve25519.dir/build.make programs/pkey/CMakeFiles/ecdh_curve25519.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=8 "Built target ecdh_curve25519"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=8 "Built target ecdh_curve25519"
 .PHONY : programs/pkey/CMakeFiles/ecdh_curve25519.dir/all
 
 # Include target in all.
@@ -1273,9 +1273,9 @@ all: programs/pkey/CMakeFiles/ecdh_curve25519.dir/all
 
 # Build rule for subdir invocation for target.
 programs/pkey/CMakeFiles/ecdh_curve25519.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 programs/pkey/CMakeFiles/ecdh_curve25519.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/pkey/CMakeFiles/ecdh_curve25519.dir/rule
 
 # Convenience name for target.
@@ -1301,7 +1301,7 @@ programs/pkey/CMakeFiles/pk_encrypt.dir/all: CMakeFiles/mbedtls_test.dir/all
 programs/pkey/CMakeFiles/pk_encrypt.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f programs/pkey/CMakeFiles/pk_encrypt.dir/build.make programs/pkey/CMakeFiles/pk_encrypt.dir/depend
 	$(MAKE) -f programs/pkey/CMakeFiles/pk_encrypt.dir/build.make programs/pkey/CMakeFiles/pk_encrypt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=84 "Built target pk_encrypt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=84 "Built target pk_encrypt"
 .PHONY : programs/pkey/CMakeFiles/pk_encrypt.dir/all
 
 # Include target in all.
@@ -1311,9 +1311,9 @@ all: programs/pkey/CMakeFiles/pk_encrypt.dir/all
 
 # Build rule for subdir invocation for target.
 programs/pkey/CMakeFiles/pk_encrypt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 programs/pkey/CMakeFiles/pk_encrypt.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/pkey/CMakeFiles/pk_encrypt.dir/rule
 
 # Convenience name for target.
@@ -1339,7 +1339,7 @@ programs/pkey/CMakeFiles/ecdsa.dir/all: CMakeFiles/mbedtls_test.dir/all
 programs/pkey/CMakeFiles/ecdsa.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f programs/pkey/CMakeFiles/ecdsa.dir/build.make programs/pkey/CMakeFiles/ecdsa.dir/depend
 	$(MAKE) -f programs/pkey/CMakeFiles/ecdsa.dir/build.make programs/pkey/CMakeFiles/ecdsa.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target ecdsa"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target ecdsa"
 .PHONY : programs/pkey/CMakeFiles/ecdsa.dir/all
 
 # Include target in all.
@@ -1349,9 +1349,9 @@ all: programs/pkey/CMakeFiles/ecdsa.dir/all
 
 # Build rule for subdir invocation for target.
 programs/pkey/CMakeFiles/ecdsa.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
 	$(MAKE) -f CMakeFiles/Makefile2 programs/pkey/CMakeFiles/ecdsa.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/pkey/CMakeFiles/ecdsa.dir/rule
 
 # Convenience name for target.
@@ -1377,7 +1377,7 @@ programs/pkey/CMakeFiles/rsa_encrypt.dir/all: CMakeFiles/mbedtls_test.dir/all
 programs/pkey/CMakeFiles/rsa_encrypt.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f programs/pkey/CMakeFiles/rsa_encrypt.dir/build.make programs/pkey/CMakeFiles/rsa_encrypt.dir/depend
 	$(MAKE) -f programs/pkey/CMakeFiles/rsa_encrypt.dir/build.make programs/pkey/CMakeFiles/rsa_encrypt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target rsa_encrypt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target rsa_encrypt"
 .PHONY : programs/pkey/CMakeFiles/rsa_encrypt.dir/all
 
 # Include target in all.
@@ -1387,9 +1387,9 @@ all: programs/pkey/CMakeFiles/rsa_encrypt.dir/all
 
 # Build rule for subdir invocation for target.
 programs/pkey/CMakeFiles/rsa_encrypt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
 	$(MAKE) -f CMakeFiles/Makefile2 programs/pkey/CMakeFiles/rsa_encrypt.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/pkey/CMakeFiles/rsa_encrypt.dir/rule
 
 # Convenience name for target.
@@ -1417,7 +1417,7 @@ programs/pkey/CMakeFiles/dh_server.dir/all: library/CMakeFiles/mbedx509.dir/all
 programs/pkey/CMakeFiles/dh_server.dir/all: library/CMakeFiles/mbedtls.dir/all
 	$(MAKE) -f programs/pkey/CMakeFiles/dh_server.dir/build.make programs/pkey/CMakeFiles/dh_server.dir/depend
 	$(MAKE) -f programs/pkey/CMakeFiles/dh_server.dir/build.make programs/pkey/CMakeFiles/dh_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=6 "Built target dh_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=6 "Built target dh_server"
 .PHONY : programs/pkey/CMakeFiles/dh_server.dir/all
 
 # Include target in all.
@@ -1427,9 +1427,9 @@ all: programs/pkey/CMakeFiles/dh_server.dir/all
 
 # Build rule for subdir invocation for target.
 programs/pkey/CMakeFiles/dh_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 programs/pkey/CMakeFiles/dh_server.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/pkey/CMakeFiles/dh_server.dir/rule
 
 # Convenience name for target.
@@ -1455,7 +1455,7 @@ programs/pkey/CMakeFiles/dh_genprime.dir/all: CMakeFiles/mbedtls_test.dir/all
 programs/pkey/CMakeFiles/dh_genprime.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f programs/pkey/CMakeFiles/dh_genprime.dir/build.make programs/pkey/CMakeFiles/dh_genprime.dir/depend
 	$(MAKE) -f programs/pkey/CMakeFiles/dh_genprime.dir/build.make programs/pkey/CMakeFiles/dh_genprime.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target dh_genprime"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target dh_genprime"
 .PHONY : programs/pkey/CMakeFiles/dh_genprime.dir/all
 
 # Include target in all.
@@ -1465,9 +1465,9 @@ all: programs/pkey/CMakeFiles/dh_genprime.dir/all
 
 # Build rule for subdir invocation for target.
 programs/pkey/CMakeFiles/dh_genprime.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
 	$(MAKE) -f CMakeFiles/Makefile2 programs/pkey/CMakeFiles/dh_genprime.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/pkey/CMakeFiles/dh_genprime.dir/rule
 
 # Convenience name for target.
@@ -1495,7 +1495,7 @@ programs/pkey/CMakeFiles/dh_client.dir/all: library/CMakeFiles/mbedx509.dir/all
 programs/pkey/CMakeFiles/dh_client.dir/all: library/CMakeFiles/mbedtls.dir/all
 	$(MAKE) -f programs/pkey/CMakeFiles/dh_client.dir/build.make programs/pkey/CMakeFiles/dh_client.dir/depend
 	$(MAKE) -f programs/pkey/CMakeFiles/dh_client.dir/build.make programs/pkey/CMakeFiles/dh_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=5 "Built target dh_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=5 "Built target dh_client"
 .PHONY : programs/pkey/CMakeFiles/dh_client.dir/all
 
 # Include target in all.
@@ -1505,9 +1505,9 @@ all: programs/pkey/CMakeFiles/dh_client.dir/all
 
 # Build rule for subdir invocation for target.
 programs/pkey/CMakeFiles/dh_client.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 programs/pkey/CMakeFiles/dh_client.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/pkey/CMakeFiles/dh_client.dir/rule
 
 # Convenience name for target.
@@ -1533,7 +1533,7 @@ programs/pkey/CMakeFiles/pk_decrypt.dir/all: CMakeFiles/mbedtls_test.dir/all
 programs/pkey/CMakeFiles/pk_decrypt.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f programs/pkey/CMakeFiles/pk_decrypt.dir/build.make programs/pkey/CMakeFiles/pk_decrypt.dir/depend
 	$(MAKE) -f programs/pkey/CMakeFiles/pk_decrypt.dir/build.make programs/pkey/CMakeFiles/pk_decrypt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=83 "Built target pk_decrypt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=83 "Built target pk_decrypt"
 .PHONY : programs/pkey/CMakeFiles/pk_decrypt.dir/all
 
 # Include target in all.
@@ -1543,9 +1543,9 @@ all: programs/pkey/CMakeFiles/pk_decrypt.dir/all
 
 # Build rule for subdir invocation for target.
 programs/pkey/CMakeFiles/pk_decrypt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 programs/pkey/CMakeFiles/pk_decrypt.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/pkey/CMakeFiles/pk_decrypt.dir/rule
 
 # Convenience name for target.
@@ -1571,7 +1571,7 @@ programs/pkey/CMakeFiles/pk_sign.dir/all: CMakeFiles/mbedtls_test.dir/all
 programs/pkey/CMakeFiles/pk_sign.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f programs/pkey/CMakeFiles/pk_sign.dir/build.make programs/pkey/CMakeFiles/pk_sign.dir/depend
 	$(MAKE) -f programs/pkey/CMakeFiles/pk_sign.dir/build.make programs/pkey/CMakeFiles/pk_sign.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target pk_sign"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target pk_sign"
 .PHONY : programs/pkey/CMakeFiles/pk_sign.dir/all
 
 # Include target in all.
@@ -1581,9 +1581,9 @@ all: programs/pkey/CMakeFiles/pk_sign.dir/all
 
 # Build rule for subdir invocation for target.
 programs/pkey/CMakeFiles/pk_sign.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
 	$(MAKE) -f CMakeFiles/Makefile2 programs/pkey/CMakeFiles/pk_sign.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/pkey/CMakeFiles/pk_sign.dir/rule
 
 # Convenience name for target.
@@ -1609,7 +1609,7 @@ programs/pkey/CMakeFiles/key_app_writer.dir/all: CMakeFiles/mbedtls_test.dir/all
 programs/pkey/CMakeFiles/key_app_writer.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f programs/pkey/CMakeFiles/key_app_writer.dir/build.make programs/pkey/CMakeFiles/key_app_writer.dir/depend
 	$(MAKE) -f programs/pkey/CMakeFiles/key_app_writer.dir/build.make programs/pkey/CMakeFiles/key_app_writer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=23 "Built target key_app_writer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=23 "Built target key_app_writer"
 .PHONY : programs/pkey/CMakeFiles/key_app_writer.dir/all
 
 # Include target in all.
@@ -1619,9 +1619,9 @@ all: programs/pkey/CMakeFiles/key_app_writer.dir/all
 
 # Build rule for subdir invocation for target.
 programs/pkey/CMakeFiles/key_app_writer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 programs/pkey/CMakeFiles/key_app_writer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/pkey/CMakeFiles/key_app_writer.dir/rule
 
 # Convenience name for target.
@@ -1647,7 +1647,7 @@ programs/pkey/CMakeFiles/pk_verify.dir/all: CMakeFiles/mbedtls_test.dir/all
 programs/pkey/CMakeFiles/pk_verify.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f programs/pkey/CMakeFiles/pk_verify.dir/build.make programs/pkey/CMakeFiles/pk_verify.dir/depend
 	$(MAKE) -f programs/pkey/CMakeFiles/pk_verify.dir/build.make programs/pkey/CMakeFiles/pk_verify.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=85 "Built target pk_verify"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=85 "Built target pk_verify"
 .PHONY : programs/pkey/CMakeFiles/pk_verify.dir/all
 
 # Include target in all.
@@ -1657,9 +1657,9 @@ all: programs/pkey/CMakeFiles/pk_verify.dir/all
 
 # Build rule for subdir invocation for target.
 programs/pkey/CMakeFiles/pk_verify.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 programs/pkey/CMakeFiles/pk_verify.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/pkey/CMakeFiles/pk_verify.dir/rule
 
 # Convenience name for target.
@@ -1685,7 +1685,7 @@ programs/pkey/CMakeFiles/rsa_decrypt.dir/all: CMakeFiles/mbedtls_test.dir/all
 programs/pkey/CMakeFiles/rsa_decrypt.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f programs/pkey/CMakeFiles/rsa_decrypt.dir/build.make programs/pkey/CMakeFiles/rsa_decrypt.dir/depend
 	$(MAKE) -f programs/pkey/CMakeFiles/rsa_decrypt.dir/build.make programs/pkey/CMakeFiles/rsa_decrypt.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=88 "Built target rsa_decrypt"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=88 "Built target rsa_decrypt"
 .PHONY : programs/pkey/CMakeFiles/rsa_decrypt.dir/all
 
 # Include target in all.
@@ -1695,9 +1695,9 @@ all: programs/pkey/CMakeFiles/rsa_decrypt.dir/all
 
 # Build rule for subdir invocation for target.
 programs/pkey/CMakeFiles/rsa_decrypt.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 programs/pkey/CMakeFiles/rsa_decrypt.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/pkey/CMakeFiles/rsa_decrypt.dir/rule
 
 # Convenience name for target.
@@ -1723,7 +1723,7 @@ programs/pkey/CMakeFiles/rsa_genkey.dir/all: CMakeFiles/mbedtls_test.dir/all
 programs/pkey/CMakeFiles/rsa_genkey.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f programs/pkey/CMakeFiles/rsa_genkey.dir/build.make programs/pkey/CMakeFiles/rsa_genkey.dir/depend
 	$(MAKE) -f programs/pkey/CMakeFiles/rsa_genkey.dir/build.make programs/pkey/CMakeFiles/rsa_genkey.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=89 "Built target rsa_genkey"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=89 "Built target rsa_genkey"
 .PHONY : programs/pkey/CMakeFiles/rsa_genkey.dir/all
 
 # Include target in all.
@@ -1733,9 +1733,9 @@ all: programs/pkey/CMakeFiles/rsa_genkey.dir/all
 
 # Build rule for subdir invocation for target.
 programs/pkey/CMakeFiles/rsa_genkey.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 programs/pkey/CMakeFiles/rsa_genkey.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/pkey/CMakeFiles/rsa_genkey.dir/rule
 
 # Convenience name for target.
@@ -1761,7 +1761,7 @@ programs/pkey/CMakeFiles/rsa_sign.dir/all: CMakeFiles/mbedtls_test.dir/all
 programs/pkey/CMakeFiles/rsa_sign.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f programs/pkey/CMakeFiles/rsa_sign.dir/build.make programs/pkey/CMakeFiles/rsa_sign.dir/depend
 	$(MAKE) -f programs/pkey/CMakeFiles/rsa_sign.dir/build.make programs/pkey/CMakeFiles/rsa_sign.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target rsa_sign"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target rsa_sign"
 .PHONY : programs/pkey/CMakeFiles/rsa_sign.dir/all
 
 # Include target in all.
@@ -1771,9 +1771,9 @@ all: programs/pkey/CMakeFiles/rsa_sign.dir/all
 
 # Build rule for subdir invocation for target.
 programs/pkey/CMakeFiles/rsa_sign.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
 	$(MAKE) -f CMakeFiles/Makefile2 programs/pkey/CMakeFiles/rsa_sign.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/pkey/CMakeFiles/rsa_sign.dir/rule
 
 # Convenience name for target.
@@ -1799,7 +1799,7 @@ programs/pkey/CMakeFiles/rsa_sign_pss.dir/all: CMakeFiles/mbedtls_test.dir/all
 programs/pkey/CMakeFiles/rsa_sign_pss.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f programs/pkey/CMakeFiles/rsa_sign_pss.dir/build.make programs/pkey/CMakeFiles/rsa_sign_pss.dir/depend
 	$(MAKE) -f programs/pkey/CMakeFiles/rsa_sign_pss.dir/build.make programs/pkey/CMakeFiles/rsa_sign_pss.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=90 "Built target rsa_sign_pss"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=90 "Built target rsa_sign_pss"
 .PHONY : programs/pkey/CMakeFiles/rsa_sign_pss.dir/all
 
 # Include target in all.
@@ -1809,9 +1809,9 @@ all: programs/pkey/CMakeFiles/rsa_sign_pss.dir/all
 
 # Build rule for subdir invocation for target.
 programs/pkey/CMakeFiles/rsa_sign_pss.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 programs/pkey/CMakeFiles/rsa_sign_pss.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/pkey/CMakeFiles/rsa_sign_pss.dir/rule
 
 # Convenience name for target.
@@ -1837,7 +1837,7 @@ programs/pkey/CMakeFiles/rsa_verify.dir/all: CMakeFiles/mbedtls_test.dir/all
 programs/pkey/CMakeFiles/rsa_verify.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f programs/pkey/CMakeFiles/rsa_verify.dir/build.make programs/pkey/CMakeFiles/rsa_verify.dir/depend
 	$(MAKE) -f programs/pkey/CMakeFiles/rsa_verify.dir/build.make programs/pkey/CMakeFiles/rsa_verify.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=91 "Built target rsa_verify"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=91 "Built target rsa_verify"
 .PHONY : programs/pkey/CMakeFiles/rsa_verify.dir/all
 
 # Include target in all.
@@ -1847,9 +1847,9 @@ all: programs/pkey/CMakeFiles/rsa_verify.dir/all
 
 # Build rule for subdir invocation for target.
 programs/pkey/CMakeFiles/rsa_verify.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 programs/pkey/CMakeFiles/rsa_verify.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/pkey/CMakeFiles/rsa_verify.dir/rule
 
 # Convenience name for target.
@@ -1875,7 +1875,7 @@ programs/pkey/CMakeFiles/rsa_verify_pss.dir/all: CMakeFiles/mbedtls_test.dir/all
 programs/pkey/CMakeFiles/rsa_verify_pss.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f programs/pkey/CMakeFiles/rsa_verify_pss.dir/build.make programs/pkey/CMakeFiles/rsa_verify_pss.dir/depend
 	$(MAKE) -f programs/pkey/CMakeFiles/rsa_verify_pss.dir/build.make programs/pkey/CMakeFiles/rsa_verify_pss.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target rsa_verify_pss"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target rsa_verify_pss"
 .PHONY : programs/pkey/CMakeFiles/rsa_verify_pss.dir/all
 
 # Include target in all.
@@ -1885,9 +1885,9 @@ all: programs/pkey/CMakeFiles/rsa_verify_pss.dir/all
 
 # Build rule for subdir invocation for target.
 programs/pkey/CMakeFiles/rsa_verify_pss.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
 	$(MAKE) -f CMakeFiles/Makefile2 programs/pkey/CMakeFiles/rsa_verify_pss.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/pkey/CMakeFiles/rsa_verify_pss.dir/rule
 
 # Convenience name for target.
@@ -1935,7 +1935,7 @@ programs/psa/CMakeFiles/psa_constant_names.dir/all: CMakeFiles/mbedtls_test.dir/
 programs/psa/CMakeFiles/psa_constant_names.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f programs/psa/CMakeFiles/psa_constant_names.dir/build.make programs/psa/CMakeFiles/psa_constant_names.dir/depend
 	$(MAKE) -f programs/psa/CMakeFiles/psa_constant_names.dir/build.make programs/psa/CMakeFiles/psa_constant_names.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target psa_constant_names"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target psa_constant_names"
 .PHONY : programs/psa/CMakeFiles/psa_constant_names.dir/all
 
 # Include target in all.
@@ -1945,9 +1945,9 @@ all: programs/psa/CMakeFiles/psa_constant_names.dir/all
 
 # Build rule for subdir invocation for target.
 programs/psa/CMakeFiles/psa_constant_names.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
 	$(MAKE) -f CMakeFiles/Makefile2 programs/psa/CMakeFiles/psa_constant_names.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/psa/CMakeFiles/psa_constant_names.dir/rule
 
 # Convenience name for target.
@@ -1973,7 +1973,7 @@ programs/psa/CMakeFiles/key_ladder_demo.dir/all: CMakeFiles/mbedtls_test.dir/all
 programs/psa/CMakeFiles/key_ladder_demo.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f programs/psa/CMakeFiles/key_ladder_demo.dir/build.make programs/psa/CMakeFiles/key_ladder_demo.dir/depend
 	$(MAKE) -f programs/psa/CMakeFiles/key_ladder_demo.dir/build.make programs/psa/CMakeFiles/key_ladder_demo.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target key_ladder_demo"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target key_ladder_demo"
 .PHONY : programs/psa/CMakeFiles/key_ladder_demo.dir/all
 
 # Include target in all.
@@ -1983,9 +1983,9 @@ all: programs/psa/CMakeFiles/key_ladder_demo.dir/all
 
 # Build rule for subdir invocation for target.
 programs/psa/CMakeFiles/key_ladder_demo.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
 	$(MAKE) -f CMakeFiles/Makefile2 programs/psa/CMakeFiles/key_ladder_demo.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/psa/CMakeFiles/key_ladder_demo.dir/rule
 
 # Convenience name for target.
@@ -2011,7 +2011,7 @@ programs/psa/CMakeFiles/crypto_examples.dir/all: CMakeFiles/mbedtls_test.dir/all
 programs/psa/CMakeFiles/crypto_examples.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f programs/psa/CMakeFiles/crypto_examples.dir/build.make programs/psa/CMakeFiles/crypto_examples.dir/depend
 	$(MAKE) -f programs/psa/CMakeFiles/crypto_examples.dir/build.make programs/psa/CMakeFiles/crypto_examples.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target crypto_examples"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target crypto_examples"
 .PHONY : programs/psa/CMakeFiles/crypto_examples.dir/all
 
 # Include target in all.
@@ -2021,9 +2021,9 @@ all: programs/psa/CMakeFiles/crypto_examples.dir/all
 
 # Build rule for subdir invocation for target.
 programs/psa/CMakeFiles/crypto_examples.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
 	$(MAKE) -f CMakeFiles/Makefile2 programs/psa/CMakeFiles/crypto_examples.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/psa/CMakeFiles/crypto_examples.dir/rule
 
 # Convenience name for target.
@@ -2071,7 +2071,7 @@ programs/random/CMakeFiles/gen_random_havege.dir/all: CMakeFiles/mbedtls_test.di
 programs/random/CMakeFiles/gen_random_havege.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f programs/random/CMakeFiles/gen_random_havege.dir/build.make programs/random/CMakeFiles/gen_random_havege.dir/depend
 	$(MAKE) -f programs/random/CMakeFiles/gen_random_havege.dir/build.make programs/random/CMakeFiles/gen_random_havege.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target gen_random_havege"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target gen_random_havege"
 .PHONY : programs/random/CMakeFiles/gen_random_havege.dir/all
 
 # Include target in all.
@@ -2081,9 +2081,9 @@ all: programs/random/CMakeFiles/gen_random_havege.dir/all
 
 # Build rule for subdir invocation for target.
 programs/random/CMakeFiles/gen_random_havege.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
 	$(MAKE) -f CMakeFiles/Makefile2 programs/random/CMakeFiles/gen_random_havege.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/random/CMakeFiles/gen_random_havege.dir/rule
 
 # Convenience name for target.
@@ -2109,7 +2109,7 @@ programs/random/CMakeFiles/gen_random_ctr_drbg.dir/all: CMakeFiles/mbedtls_test.
 programs/random/CMakeFiles/gen_random_ctr_drbg.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f programs/random/CMakeFiles/gen_random_ctr_drbg.dir/build.make programs/random/CMakeFiles/gen_random_ctr_drbg.dir/depend
 	$(MAKE) -f programs/random/CMakeFiles/gen_random_ctr_drbg.dir/build.make programs/random/CMakeFiles/gen_random_ctr_drbg.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=20 "Built target gen_random_ctr_drbg"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=20 "Built target gen_random_ctr_drbg"
 .PHONY : programs/random/CMakeFiles/gen_random_ctr_drbg.dir/all
 
 # Include target in all.
@@ -2119,9 +2119,9 @@ all: programs/random/CMakeFiles/gen_random_ctr_drbg.dir/all
 
 # Build rule for subdir invocation for target.
 programs/random/CMakeFiles/gen_random_ctr_drbg.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 programs/random/CMakeFiles/gen_random_ctr_drbg.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/random/CMakeFiles/gen_random_ctr_drbg.dir/rule
 
 # Convenience name for target.
@@ -2147,7 +2147,7 @@ programs/random/CMakeFiles/gen_entropy.dir/all: CMakeFiles/mbedtls_test.dir/all
 programs/random/CMakeFiles/gen_entropy.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f programs/random/CMakeFiles/gen_entropy.dir/build.make programs/random/CMakeFiles/gen_entropy.dir/depend
 	$(MAKE) -f programs/random/CMakeFiles/gen_entropy.dir/build.make programs/random/CMakeFiles/gen_entropy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target gen_entropy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target gen_entropy"
 .PHONY : programs/random/CMakeFiles/gen_entropy.dir/all
 
 # Include target in all.
@@ -2157,9 +2157,9 @@ all: programs/random/CMakeFiles/gen_entropy.dir/all
 
 # Build rule for subdir invocation for target.
 programs/random/CMakeFiles/gen_entropy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
 	$(MAKE) -f CMakeFiles/Makefile2 programs/random/CMakeFiles/gen_entropy.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/random/CMakeFiles/gen_entropy.dir/rule
 
 # Convenience name for target.
@@ -2225,7 +2225,7 @@ programs/ssl/CMakeFiles/ssl_pthread_server.dir/all: library/CMakeFiles/mbedx509.
 programs/ssl/CMakeFiles/ssl_pthread_server.dir/all: library/CMakeFiles/mbedtls.dir/all
 	$(MAKE) -f programs/ssl/CMakeFiles/ssl_pthread_server.dir/build.make programs/ssl/CMakeFiles/ssl_pthread_server.dir/depend
 	$(MAKE) -f programs/ssl/CMakeFiles/ssl_pthread_server.dir/build.make programs/ssl/CMakeFiles/ssl_pthread_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=96 "Built target ssl_pthread_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=96 "Built target ssl_pthread_server"
 .PHONY : programs/ssl/CMakeFiles/ssl_pthread_server.dir/all
 
 # Include target in all.
@@ -2235,9 +2235,9 @@ all: programs/ssl/CMakeFiles/ssl_pthread_server.dir/all
 
 # Build rule for subdir invocation for target.
 programs/ssl/CMakeFiles/ssl_pthread_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 programs/ssl/CMakeFiles/ssl_pthread_server.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/ssl/CMakeFiles/ssl_pthread_server.dir/rule
 
 # Convenience name for target.
@@ -2265,7 +2265,7 @@ programs/ssl/CMakeFiles/dtls_client.dir/all: library/CMakeFiles/mbedx509.dir/all
 programs/ssl/CMakeFiles/dtls_client.dir/all: library/CMakeFiles/mbedtls.dir/all
 	$(MAKE) -f programs/ssl/CMakeFiles/dtls_client.dir/build.make programs/ssl/CMakeFiles/dtls_client.dir/depend
 	$(MAKE) -f programs/ssl/CMakeFiles/dtls_client.dir/build.make programs/ssl/CMakeFiles/dtls_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=7 "Built target dtls_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=7 "Built target dtls_client"
 .PHONY : programs/ssl/CMakeFiles/dtls_client.dir/all
 
 # Include target in all.
@@ -2275,9 +2275,9 @@ all: programs/ssl/CMakeFiles/dtls_client.dir/all
 
 # Build rule for subdir invocation for target.
 programs/ssl/CMakeFiles/dtls_client.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 programs/ssl/CMakeFiles/dtls_client.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/ssl/CMakeFiles/dtls_client.dir/rule
 
 # Convenience name for target.
@@ -2305,7 +2305,7 @@ programs/ssl/CMakeFiles/dtls_server.dir/all: library/CMakeFiles/mbedx509.dir/all
 programs/ssl/CMakeFiles/dtls_server.dir/all: library/CMakeFiles/mbedtls.dir/all
 	$(MAKE) -f programs/ssl/CMakeFiles/dtls_server.dir/build.make programs/ssl/CMakeFiles/dtls_server.dir/depend
 	$(MAKE) -f programs/ssl/CMakeFiles/dtls_server.dir/build.make programs/ssl/CMakeFiles/dtls_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target dtls_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target dtls_server"
 .PHONY : programs/ssl/CMakeFiles/dtls_server.dir/all
 
 # Include target in all.
@@ -2315,9 +2315,9 @@ all: programs/ssl/CMakeFiles/dtls_server.dir/all
 
 # Build rule for subdir invocation for target.
 programs/ssl/CMakeFiles/dtls_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 31
 	$(MAKE) -f CMakeFiles/Makefile2 programs/ssl/CMakeFiles/dtls_server.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/ssl/CMakeFiles/dtls_server.dir/rule
 
 # Convenience name for target.
@@ -2345,7 +2345,7 @@ programs/ssl/CMakeFiles/ssl_server.dir/all: library/CMakeFiles/mbedx509.dir/all
 programs/ssl/CMakeFiles/ssl_server.dir/all: library/CMakeFiles/mbedtls.dir/all
 	$(MAKE) -f programs/ssl/CMakeFiles/ssl_server.dir/build.make programs/ssl/CMakeFiles/ssl_server.dir/depend
 	$(MAKE) -f programs/ssl/CMakeFiles/ssl_server.dir/build.make programs/ssl/CMakeFiles/ssl_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=97 "Built target ssl_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=97 "Built target ssl_server"
 .PHONY : programs/ssl/CMakeFiles/ssl_server.dir/all
 
 # Include target in all.
@@ -2355,9 +2355,9 @@ all: programs/ssl/CMakeFiles/ssl_server.dir/all
 
 # Build rule for subdir invocation for target.
 programs/ssl/CMakeFiles/ssl_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 programs/ssl/CMakeFiles/ssl_server.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/ssl/CMakeFiles/ssl_server.dir/rule
 
 # Convenience name for target.
@@ -2385,7 +2385,7 @@ programs/ssl/CMakeFiles/ssl_server2.dir/all: library/CMakeFiles/mbedx509.dir/all
 programs/ssl/CMakeFiles/ssl_server2.dir/all: library/CMakeFiles/mbedtls.dir/all
 	$(MAKE) -f programs/ssl/CMakeFiles/ssl_server2.dir/build.make programs/ssl/CMakeFiles/ssl_server2.dir/depend
 	$(MAKE) -f programs/ssl/CMakeFiles/ssl_server2.dir/build.make programs/ssl/CMakeFiles/ssl_server2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=98 "Built target ssl_server2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=98 "Built target ssl_server2"
 .PHONY : programs/ssl/CMakeFiles/ssl_server2.dir/all
 
 # Include target in all.
@@ -2395,9 +2395,9 @@ all: programs/ssl/CMakeFiles/ssl_server2.dir/all
 
 # Build rule for subdir invocation for target.
 programs/ssl/CMakeFiles/ssl_server2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 programs/ssl/CMakeFiles/ssl_server2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/ssl/CMakeFiles/ssl_server2.dir/rule
 
 # Convenience name for target.
@@ -2425,7 +2425,7 @@ programs/ssl/CMakeFiles/mini_client.dir/all: library/CMakeFiles/mbedx509.dir/all
 programs/ssl/CMakeFiles/mini_client.dir/all: library/CMakeFiles/mbedtls.dir/all
 	$(MAKE) -f programs/ssl/CMakeFiles/mini_client.dir/build.make programs/ssl/CMakeFiles/mini_client.dir/depend
 	$(MAKE) -f programs/ssl/CMakeFiles/mini_client.dir/build.make programs/ssl/CMakeFiles/mini_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target mini_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target mini_client"
 .PHONY : programs/ssl/CMakeFiles/mini_client.dir/all
 
 # Include target in all.
@@ -2435,9 +2435,9 @@ all: programs/ssl/CMakeFiles/mini_client.dir/all
 
 # Build rule for subdir invocation for target.
 programs/ssl/CMakeFiles/mini_client.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 31
 	$(MAKE) -f CMakeFiles/Makefile2 programs/ssl/CMakeFiles/mini_client.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/ssl/CMakeFiles/mini_client.dir/rule
 
 # Convenience name for target.
@@ -2465,7 +2465,7 @@ programs/ssl/CMakeFiles/ssl_client1.dir/all: library/CMakeFiles/mbedx509.dir/all
 programs/ssl/CMakeFiles/ssl_client1.dir/all: library/CMakeFiles/mbedtls.dir/all
 	$(MAKE) -f programs/ssl/CMakeFiles/ssl_client1.dir/build.make programs/ssl/CMakeFiles/ssl_client1.dir/depend
 	$(MAKE) -f programs/ssl/CMakeFiles/ssl_client1.dir/build.make programs/ssl/CMakeFiles/ssl_client1.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target ssl_client1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target ssl_client1"
 .PHONY : programs/ssl/CMakeFiles/ssl_client1.dir/all
 
 # Include target in all.
@@ -2475,9 +2475,9 @@ all: programs/ssl/CMakeFiles/ssl_client1.dir/all
 
 # Build rule for subdir invocation for target.
 programs/ssl/CMakeFiles/ssl_client1.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 31
 	$(MAKE) -f CMakeFiles/Makefile2 programs/ssl/CMakeFiles/ssl_client1.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/ssl/CMakeFiles/ssl_client1.dir/rule
 
 # Convenience name for target.
@@ -2505,7 +2505,7 @@ programs/ssl/CMakeFiles/ssl_client2.dir/all: library/CMakeFiles/mbedx509.dir/all
 programs/ssl/CMakeFiles/ssl_client2.dir/all: library/CMakeFiles/mbedtls.dir/all
 	$(MAKE) -f programs/ssl/CMakeFiles/ssl_client2.dir/build.make programs/ssl/CMakeFiles/ssl_client2.dir/depend
 	$(MAKE) -f programs/ssl/CMakeFiles/ssl_client2.dir/build.make programs/ssl/CMakeFiles/ssl_client2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=93,94 "Built target ssl_client2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=93,94 "Built target ssl_client2"
 .PHONY : programs/ssl/CMakeFiles/ssl_client2.dir/all
 
 # Include target in all.
@@ -2515,9 +2515,9 @@ all: programs/ssl/CMakeFiles/ssl_client2.dir/all
 
 # Build rule for subdir invocation for target.
 programs/ssl/CMakeFiles/ssl_client2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 33
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 33
 	$(MAKE) -f CMakeFiles/Makefile2 programs/ssl/CMakeFiles/ssl_client2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/ssl/CMakeFiles/ssl_client2.dir/rule
 
 # Convenience name for target.
@@ -2545,7 +2545,7 @@ programs/ssl/CMakeFiles/ssl_context_info.dir/all: library/CMakeFiles/mbedx509.di
 programs/ssl/CMakeFiles/ssl_context_info.dir/all: library/CMakeFiles/mbedtls.dir/all
 	$(MAKE) -f programs/ssl/CMakeFiles/ssl_context_info.dir/build.make programs/ssl/CMakeFiles/ssl_context_info.dir/depend
 	$(MAKE) -f programs/ssl/CMakeFiles/ssl_context_info.dir/build.make programs/ssl/CMakeFiles/ssl_context_info.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target ssl_context_info"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target ssl_context_info"
 .PHONY : programs/ssl/CMakeFiles/ssl_context_info.dir/all
 
 # Include target in all.
@@ -2555,9 +2555,9 @@ all: programs/ssl/CMakeFiles/ssl_context_info.dir/all
 
 # Build rule for subdir invocation for target.
 programs/ssl/CMakeFiles/ssl_context_info.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 31
 	$(MAKE) -f CMakeFiles/Makefile2 programs/ssl/CMakeFiles/ssl_context_info.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/ssl/CMakeFiles/ssl_context_info.dir/rule
 
 # Convenience name for target.
@@ -2585,7 +2585,7 @@ programs/ssl/CMakeFiles/ssl_fork_server.dir/all: library/CMakeFiles/mbedx509.dir
 programs/ssl/CMakeFiles/ssl_fork_server.dir/all: library/CMakeFiles/mbedtls.dir/all
 	$(MAKE) -f programs/ssl/CMakeFiles/ssl_fork_server.dir/build.make programs/ssl/CMakeFiles/ssl_fork_server.dir/depend
 	$(MAKE) -f programs/ssl/CMakeFiles/ssl_fork_server.dir/build.make programs/ssl/CMakeFiles/ssl_fork_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=95 "Built target ssl_fork_server"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=95 "Built target ssl_fork_server"
 .PHONY : programs/ssl/CMakeFiles/ssl_fork_server.dir/all
 
 # Include target in all.
@@ -2595,9 +2595,9 @@ all: programs/ssl/CMakeFiles/ssl_fork_server.dir/all
 
 # Build rule for subdir invocation for target.
 programs/ssl/CMakeFiles/ssl_fork_server.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 programs/ssl/CMakeFiles/ssl_fork_server.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/ssl/CMakeFiles/ssl_fork_server.dir/rule
 
 # Convenience name for target.
@@ -2625,7 +2625,7 @@ programs/ssl/CMakeFiles/ssl_mail_client.dir/all: library/CMakeFiles/mbedx509.dir
 programs/ssl/CMakeFiles/ssl_mail_client.dir/all: library/CMakeFiles/mbedtls.dir/all
 	$(MAKE) -f programs/ssl/CMakeFiles/ssl_mail_client.dir/build.make programs/ssl/CMakeFiles/ssl_mail_client.dir/depend
 	$(MAKE) -f programs/ssl/CMakeFiles/ssl_mail_client.dir/build.make programs/ssl/CMakeFiles/ssl_mail_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target ssl_mail_client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target ssl_mail_client"
 .PHONY : programs/ssl/CMakeFiles/ssl_mail_client.dir/all
 
 # Include target in all.
@@ -2635,9 +2635,9 @@ all: programs/ssl/CMakeFiles/ssl_mail_client.dir/all
 
 # Build rule for subdir invocation for target.
 programs/ssl/CMakeFiles/ssl_mail_client.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 31
 	$(MAKE) -f CMakeFiles/Makefile2 programs/ssl/CMakeFiles/ssl_mail_client.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/ssl/CMakeFiles/ssl_mail_client.dir/rule
 
 # Convenience name for target.
@@ -2691,7 +2691,7 @@ programs/test/CMakeFiles/selftest.dir/all: library/CMakeFiles/mbedx509.dir/all
 programs/test/CMakeFiles/selftest.dir/all: library/CMakeFiles/mbedtls.dir/all
 	$(MAKE) -f programs/test/CMakeFiles/selftest.dir/build.make programs/test/CMakeFiles/selftest.dir/depend
 	$(MAKE) -f programs/test/CMakeFiles/selftest.dir/build.make programs/test/CMakeFiles/selftest.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=92 "Built target selftest"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=92 "Built target selftest"
 .PHONY : programs/test/CMakeFiles/selftest.dir/all
 
 # Include target in all.
@@ -2701,9 +2701,9 @@ all: programs/test/CMakeFiles/selftest.dir/all
 
 # Build rule for subdir invocation for target.
 programs/test/CMakeFiles/selftest.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 programs/test/CMakeFiles/selftest.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/test/CMakeFiles/selftest.dir/rule
 
 # Convenience name for target.
@@ -2731,7 +2731,7 @@ programs/test/CMakeFiles/udp_proxy.dir/all: library/CMakeFiles/mbedx509.dir/all
 programs/test/CMakeFiles/udp_proxy.dir/all: library/CMakeFiles/mbedtls.dir/all
 	$(MAKE) -f programs/test/CMakeFiles/udp_proxy.dir/build.make programs/test/CMakeFiles/udp_proxy.dir/depend
 	$(MAKE) -f programs/test/CMakeFiles/udp_proxy.dir/build.make programs/test/CMakeFiles/udp_proxy.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=99 "Built target udp_proxy"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=99 "Built target udp_proxy"
 .PHONY : programs/test/CMakeFiles/udp_proxy.dir/all
 
 # Include target in all.
@@ -2741,9 +2741,9 @@ all: programs/test/CMakeFiles/udp_proxy.dir/all
 
 # Build rule for subdir invocation for target.
 programs/test/CMakeFiles/udp_proxy.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 32
 	$(MAKE) -f CMakeFiles/Makefile2 programs/test/CMakeFiles/udp_proxy.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/test/CMakeFiles/udp_proxy.dir/rule
 
 # Convenience name for target.
@@ -2769,7 +2769,7 @@ programs/test/CMakeFiles/query_compile_time_config.dir/all: CMakeFiles/mbedtls_t
 programs/test/CMakeFiles/query_compile_time_config.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f programs/test/CMakeFiles/query_compile_time_config.dir/build.make programs/test/CMakeFiles/query_compile_time_config.dir/depend
 	$(MAKE) -f programs/test/CMakeFiles/query_compile_time_config.dir/build.make programs/test/CMakeFiles/query_compile_time_config.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=86 "Built target query_compile_time_config"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=86 "Built target query_compile_time_config"
 .PHONY : programs/test/CMakeFiles/query_compile_time_config.dir/all
 
 # Include target in all.
@@ -2779,9 +2779,9 @@ all: programs/test/CMakeFiles/query_compile_time_config.dir/all
 
 # Build rule for subdir invocation for target.
 programs/test/CMakeFiles/query_compile_time_config.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 programs/test/CMakeFiles/query_compile_time_config.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/test/CMakeFiles/query_compile_time_config.dir/rule
 
 # Convenience name for target.
@@ -2807,7 +2807,7 @@ programs/test/CMakeFiles/benchmark.dir/all: CMakeFiles/mbedtls_test.dir/all
 programs/test/CMakeFiles/benchmark.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f programs/test/CMakeFiles/benchmark.dir/build.make programs/test/CMakeFiles/benchmark.dir/depend
 	$(MAKE) -f programs/test/CMakeFiles/benchmark.dir/build.make programs/test/CMakeFiles/benchmark.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=1 "Built target benchmark"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=1 "Built target benchmark"
 .PHONY : programs/test/CMakeFiles/benchmark.dir/all
 
 # Include target in all.
@@ -2817,9 +2817,9 @@ all: programs/test/CMakeFiles/benchmark.dir/all
 
 # Build rule for subdir invocation for target.
 programs/test/CMakeFiles/benchmark.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 programs/test/CMakeFiles/benchmark.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/test/CMakeFiles/benchmark.dir/rule
 
 # Convenience name for target.
@@ -2845,7 +2845,7 @@ programs/test/CMakeFiles/zeroize.dir/all: CMakeFiles/mbedtls_test.dir/all
 programs/test/CMakeFiles/zeroize.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f programs/test/CMakeFiles/zeroize.dir/build.make programs/test/CMakeFiles/zeroize.dir/depend
 	$(MAKE) -f programs/test/CMakeFiles/zeroize.dir/build.make programs/test/CMakeFiles/zeroize.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=100 "Built target zeroize"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=100 "Built target zeroize"
 .PHONY : programs/test/CMakeFiles/zeroize.dir/all
 
 # Include target in all.
@@ -2855,9 +2855,9 @@ all: programs/test/CMakeFiles/zeroize.dir/all
 
 # Build rule for subdir invocation for target.
 programs/test/CMakeFiles/zeroize.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 25
 	$(MAKE) -f CMakeFiles/Makefile2 programs/test/CMakeFiles/zeroize.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/test/CMakeFiles/zeroize.dir/rule
 
 # Convenience name for target.
@@ -2903,7 +2903,7 @@ programs/util/CMakeFiles/strerror.dir/all: CMakeFiles/mbedtls_test.dir/all
 programs/util/CMakeFiles/strerror.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f programs/util/CMakeFiles/strerror.dir/build.make programs/util/CMakeFiles/strerror.dir/depend
 	$(MAKE) -f programs/util/CMakeFiles/strerror.dir/build.make programs/util/CMakeFiles/strerror.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target strerror"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target strerror"
 .PHONY : programs/util/CMakeFiles/strerror.dir/all
 
 # Include target in all.
@@ -2913,9 +2913,9 @@ all: programs/util/CMakeFiles/strerror.dir/all
 
 # Build rule for subdir invocation for target.
 programs/util/CMakeFiles/strerror.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
 	$(MAKE) -f CMakeFiles/Makefile2 programs/util/CMakeFiles/strerror.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/util/CMakeFiles/strerror.dir/rule
 
 # Convenience name for target.
@@ -2941,7 +2941,7 @@ programs/util/CMakeFiles/pem2der.dir/all: CMakeFiles/mbedtls_test.dir/all
 programs/util/CMakeFiles/pem2der.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 	$(MAKE) -f programs/util/CMakeFiles/pem2der.dir/build.make programs/util/CMakeFiles/pem2der.dir/depend
 	$(MAKE) -f programs/util/CMakeFiles/pem2der.dir/build.make programs/util/CMakeFiles/pem2der.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target pem2der"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target pem2der"
 .PHONY : programs/util/CMakeFiles/pem2der.dir/all
 
 # Include target in all.
@@ -2951,9 +2951,9 @@ all: programs/util/CMakeFiles/pem2der.dir/all
 
 # Build rule for subdir invocation for target.
 programs/util/CMakeFiles/pem2der.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 24
 	$(MAKE) -f CMakeFiles/Makefile2 programs/util/CMakeFiles/pem2der.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/util/CMakeFiles/pem2der.dir/rule
 
 # Convenience name for target.
@@ -3006,7 +3006,7 @@ programs/x509/CMakeFiles/cert_write.dir/all: library/CMakeFiles/mbedcrypto.dir/a
 programs/x509/CMakeFiles/cert_write.dir/all: library/CMakeFiles/mbedx509.dir/all
 	$(MAKE) -f programs/x509/CMakeFiles/cert_write.dir/build.make programs/x509/CMakeFiles/cert_write.dir/depend
 	$(MAKE) -f programs/x509/CMakeFiles/cert_write.dir/build.make programs/x509/CMakeFiles/cert_write.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target cert_write"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target cert_write"
 .PHONY : programs/x509/CMakeFiles/cert_write.dir/all
 
 # Include target in all.
@@ -3016,9 +3016,9 @@ all: programs/x509/CMakeFiles/cert_write.dir/all
 
 # Build rule for subdir invocation for target.
 programs/x509/CMakeFiles/cert_write.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 27
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 27
 	$(MAKE) -f CMakeFiles/Makefile2 programs/x509/CMakeFiles/cert_write.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/x509/CMakeFiles/cert_write.dir/rule
 
 # Convenience name for target.
@@ -3045,7 +3045,7 @@ programs/x509/CMakeFiles/cert_req.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 programs/x509/CMakeFiles/cert_req.dir/all: library/CMakeFiles/mbedx509.dir/all
 	$(MAKE) -f programs/x509/CMakeFiles/cert_req.dir/build.make programs/x509/CMakeFiles/cert_req.dir/depend
 	$(MAKE) -f programs/x509/CMakeFiles/cert_req.dir/build.make programs/x509/CMakeFiles/cert_req.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=2 "Built target cert_req"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=2 "Built target cert_req"
 .PHONY : programs/x509/CMakeFiles/cert_req.dir/all
 
 # Include target in all.
@@ -3055,9 +3055,9 @@ all: programs/x509/CMakeFiles/cert_req.dir/all
 
 # Build rule for subdir invocation for target.
 programs/x509/CMakeFiles/cert_req.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 programs/x509/CMakeFiles/cert_req.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/x509/CMakeFiles/cert_req.dir/rule
 
 # Convenience name for target.
@@ -3084,7 +3084,7 @@ programs/x509/CMakeFiles/req_app.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 programs/x509/CMakeFiles/req_app.dir/all: library/CMakeFiles/mbedx509.dir/all
 	$(MAKE) -f programs/x509/CMakeFiles/req_app.dir/build.make programs/x509/CMakeFiles/req_app.dir/depend
 	$(MAKE) -f programs/x509/CMakeFiles/req_app.dir/build.make programs/x509/CMakeFiles/req_app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=87 "Built target req_app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=87 "Built target req_app"
 .PHONY : programs/x509/CMakeFiles/req_app.dir/all
 
 # Include target in all.
@@ -3094,9 +3094,9 @@ all: programs/x509/CMakeFiles/req_app.dir/all
 
 # Build rule for subdir invocation for target.
 programs/x509/CMakeFiles/req_app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 programs/x509/CMakeFiles/req_app.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/x509/CMakeFiles/req_app.dir/rule
 
 # Convenience name for target.
@@ -3123,7 +3123,7 @@ programs/x509/CMakeFiles/crl_app.dir/all: library/CMakeFiles/mbedcrypto.dir/all
 programs/x509/CMakeFiles/crl_app.dir/all: library/CMakeFiles/mbedx509.dir/all
 	$(MAKE) -f programs/x509/CMakeFiles/crl_app.dir/build.make programs/x509/CMakeFiles/crl_app.dir/depend
 	$(MAKE) -f programs/x509/CMakeFiles/crl_app.dir/build.make programs/x509/CMakeFiles/crl_app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=3 "Built target crl_app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num=3 "Built target crl_app"
 .PHONY : programs/x509/CMakeFiles/crl_app.dir/all
 
 # Include target in all.
@@ -3133,9 +3133,9 @@ all: programs/x509/CMakeFiles/crl_app.dir/all
 
 # Build rule for subdir invocation for target.
 programs/x509/CMakeFiles/crl_app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 28
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 28
 	$(MAKE) -f CMakeFiles/Makefile2 programs/x509/CMakeFiles/crl_app.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/x509/CMakeFiles/crl_app.dir/rule
 
 # Convenience name for target.
@@ -3163,7 +3163,7 @@ programs/x509/CMakeFiles/cert_app.dir/all: library/CMakeFiles/mbedx509.dir/all
 programs/x509/CMakeFiles/cert_app.dir/all: library/CMakeFiles/mbedtls.dir/all
 	$(MAKE) -f programs/x509/CMakeFiles/cert_app.dir/build.make programs/x509/CMakeFiles/cert_app.dir/depend
 	$(MAKE) -f programs/x509/CMakeFiles/cert_app.dir/build.make programs/x509/CMakeFiles/cert_app.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target cert_app"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles --progress-num= "Built target cert_app"
 .PHONY : programs/x509/CMakeFiles/cert_app.dir/all
 
 # Include target in all.
@@ -3173,9 +3173,9 @@ all: programs/x509/CMakeFiles/cert_app.dir/all
 
 # Build rule for subdir invocation for target.
 programs/x509/CMakeFiles/cert_app.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 31
 	$(MAKE) -f CMakeFiles/Makefile2 programs/x509/CMakeFiles/cert_app.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : programs/x509/CMakeFiles/cert_app.dir/rule
 
 # Convenience name for target.

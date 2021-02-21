@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake
+CMAKE_COMMAND = /home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake
 
 # The command to remove a file.
-RM = /home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E remove -f
+RM = /home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/mbedtls
+CMAKE_SOURCE_DIR = /home/ramazan/AndroidStudioProjects/libs/mbedtls/mbedtls
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86
+CMAKE_BINARY_DIR = /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86
 
 # Utility rule file for lib.
 
@@ -69,10 +69,10 @@ library/CMakeFiles/lib.dir/build: lib
 .PHONY : library/CMakeFiles/lib.dir/build
 
 library/CMakeFiles/lib.dir/clean:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/library && $(CMAKE_COMMAND) -P CMakeFiles/lib.dir/cmake_clean.cmake
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/library && $(CMAKE_COMMAND) -P CMakeFiles/lib.dir/cmake_clean.cmake
 .PHONY : library/CMakeFiles/lib.dir/clean
 
 library/CMakeFiles/lib.dir/depend:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/mbedtls /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/mbedtls/library /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/library /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/library/CMakeFiles/lib.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ramazan/AndroidStudioProjects/libs/mbedtls/mbedtls /home/ramazan/AndroidStudioProjects/libs/mbedtls/mbedtls/library /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/library /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/library/CMakeFiles/lib.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : library/CMakeFiles/lib.dir/depend
 

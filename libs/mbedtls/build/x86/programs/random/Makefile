@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake
+CMAKE_COMMAND = /home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake
 
 # The command to remove a file.
-RM = /home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E remove -f
+RM = /home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/mbedtls
+CMAKE_SOURCE_DIR = /home/ramazan/AndroidStudioProjects/libs/mbedtls/mbedtls
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86
+CMAKE_BINARY_DIR = /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -70,7 +70,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -81,13 +81,13 @@ edit_cache/fast: edit_cache
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -P cmake_install.cmake
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -P cmake_install.cmake
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target list_install_components
@@ -103,37 +103,37 @@ list_install_components/fast: list_install_components
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/programs/random/CMakeFiles/progress.marks
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/random/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/programs/random/CMakeFiles/progress.marks
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/random/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/random/clean
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/random/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/random/preinstall
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/random/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/random/preinstall
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/random/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 programs/random/CMakeFiles/gen_random_havege.dir/rule:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/random/CMakeFiles/gen_random_havege.dir/rule
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/random/CMakeFiles/gen_random_havege.dir/rule
 .PHONY : programs/random/CMakeFiles/gen_random_havege.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ gen_random_havege: programs/random/CMakeFiles/gen_random_havege.dir/rule
 
 # fast build rule for target.
 gen_random_havege/fast:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/random/CMakeFiles/gen_random_havege.dir/build.make programs/random/CMakeFiles/gen_random_havege.dir/build
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/random/CMakeFiles/gen_random_havege.dir/build.make programs/random/CMakeFiles/gen_random_havege.dir/build
 .PHONY : gen_random_havege/fast
 
 # Convenience name for target.
 programs/random/CMakeFiles/gen_random_ctr_drbg.dir/rule:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/random/CMakeFiles/gen_random_ctr_drbg.dir/rule
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/random/CMakeFiles/gen_random_ctr_drbg.dir/rule
 .PHONY : programs/random/CMakeFiles/gen_random_ctr_drbg.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ gen_random_ctr_drbg: programs/random/CMakeFiles/gen_random_ctr_drbg.dir/rule
 
 # fast build rule for target.
 gen_random_ctr_drbg/fast:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/random/CMakeFiles/gen_random_ctr_drbg.dir/build.make programs/random/CMakeFiles/gen_random_ctr_drbg.dir/build
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/random/CMakeFiles/gen_random_ctr_drbg.dir/build.make programs/random/CMakeFiles/gen_random_ctr_drbg.dir/build
 .PHONY : gen_random_ctr_drbg/fast
 
 # Convenience name for target.
 programs/random/CMakeFiles/gen_entropy.dir/rule:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/random/CMakeFiles/gen_entropy.dir/rule
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/random/CMakeFiles/gen_entropy.dir/rule
 .PHONY : programs/random/CMakeFiles/gen_entropy.dir/rule
 
 # Convenience name for target.
@@ -198,7 +198,7 @@ gen_entropy: programs/random/CMakeFiles/gen_entropy.dir/rule
 
 # fast build rule for target.
 gen_entropy/fast:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/random/CMakeFiles/gen_entropy.dir/build.make programs/random/CMakeFiles/gen_entropy.dir/build
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/random/CMakeFiles/gen_entropy.dir/build.make programs/random/CMakeFiles/gen_entropy.dir/build
 .PHONY : gen_entropy/fast
 
 gen_entropy.o: gen_entropy.c.o
@@ -207,7 +207,7 @@ gen_entropy.o: gen_entropy.c.o
 
 # target to build an object file
 gen_entropy.c.o:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/random/CMakeFiles/gen_entropy.dir/build.make programs/random/CMakeFiles/gen_entropy.dir/gen_entropy.c.o
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/random/CMakeFiles/gen_entropy.dir/build.make programs/random/CMakeFiles/gen_entropy.dir/gen_entropy.c.o
 .PHONY : gen_entropy.c.o
 
 gen_entropy.i: gen_entropy.c.i
@@ -216,7 +216,7 @@ gen_entropy.i: gen_entropy.c.i
 
 # target to preprocess a source file
 gen_entropy.c.i:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/random/CMakeFiles/gen_entropy.dir/build.make programs/random/CMakeFiles/gen_entropy.dir/gen_entropy.c.i
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/random/CMakeFiles/gen_entropy.dir/build.make programs/random/CMakeFiles/gen_entropy.dir/gen_entropy.c.i
 .PHONY : gen_entropy.c.i
 
 gen_entropy.s: gen_entropy.c.s
@@ -225,7 +225,7 @@ gen_entropy.s: gen_entropy.c.s
 
 # target to generate assembly for a file
 gen_entropy.c.s:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/random/CMakeFiles/gen_entropy.dir/build.make programs/random/CMakeFiles/gen_entropy.dir/gen_entropy.c.s
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/random/CMakeFiles/gen_entropy.dir/build.make programs/random/CMakeFiles/gen_entropy.dir/gen_entropy.c.s
 .PHONY : gen_entropy.c.s
 
 gen_random_ctr_drbg.o: gen_random_ctr_drbg.c.o
@@ -234,7 +234,7 @@ gen_random_ctr_drbg.o: gen_random_ctr_drbg.c.o
 
 # target to build an object file
 gen_random_ctr_drbg.c.o:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/random/CMakeFiles/gen_random_ctr_drbg.dir/build.make programs/random/CMakeFiles/gen_random_ctr_drbg.dir/gen_random_ctr_drbg.c.o
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/random/CMakeFiles/gen_random_ctr_drbg.dir/build.make programs/random/CMakeFiles/gen_random_ctr_drbg.dir/gen_random_ctr_drbg.c.o
 .PHONY : gen_random_ctr_drbg.c.o
 
 gen_random_ctr_drbg.i: gen_random_ctr_drbg.c.i
@@ -243,7 +243,7 @@ gen_random_ctr_drbg.i: gen_random_ctr_drbg.c.i
 
 # target to preprocess a source file
 gen_random_ctr_drbg.c.i:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/random/CMakeFiles/gen_random_ctr_drbg.dir/build.make programs/random/CMakeFiles/gen_random_ctr_drbg.dir/gen_random_ctr_drbg.c.i
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/random/CMakeFiles/gen_random_ctr_drbg.dir/build.make programs/random/CMakeFiles/gen_random_ctr_drbg.dir/gen_random_ctr_drbg.c.i
 .PHONY : gen_random_ctr_drbg.c.i
 
 gen_random_ctr_drbg.s: gen_random_ctr_drbg.c.s
@@ -252,7 +252,7 @@ gen_random_ctr_drbg.s: gen_random_ctr_drbg.c.s
 
 # target to generate assembly for a file
 gen_random_ctr_drbg.c.s:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/random/CMakeFiles/gen_random_ctr_drbg.dir/build.make programs/random/CMakeFiles/gen_random_ctr_drbg.dir/gen_random_ctr_drbg.c.s
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/random/CMakeFiles/gen_random_ctr_drbg.dir/build.make programs/random/CMakeFiles/gen_random_ctr_drbg.dir/gen_random_ctr_drbg.c.s
 .PHONY : gen_random_ctr_drbg.c.s
 
 gen_random_havege.o: gen_random_havege.c.o
@@ -261,7 +261,7 @@ gen_random_havege.o: gen_random_havege.c.o
 
 # target to build an object file
 gen_random_havege.c.o:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/random/CMakeFiles/gen_random_havege.dir/build.make programs/random/CMakeFiles/gen_random_havege.dir/gen_random_havege.c.o
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/random/CMakeFiles/gen_random_havege.dir/build.make programs/random/CMakeFiles/gen_random_havege.dir/gen_random_havege.c.o
 .PHONY : gen_random_havege.c.o
 
 gen_random_havege.i: gen_random_havege.c.i
@@ -270,7 +270,7 @@ gen_random_havege.i: gen_random_havege.c.i
 
 # target to preprocess a source file
 gen_random_havege.c.i:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/random/CMakeFiles/gen_random_havege.dir/build.make programs/random/CMakeFiles/gen_random_havege.dir/gen_random_havege.c.i
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/random/CMakeFiles/gen_random_havege.dir/build.make programs/random/CMakeFiles/gen_random_havege.dir/gen_random_havege.c.i
 .PHONY : gen_random_havege.c.i
 
 gen_random_havege.s: gen_random_havege.c.s
@@ -279,7 +279,7 @@ gen_random_havege.s: gen_random_havege.c.s
 
 # target to generate assembly for a file
 gen_random_havege.c.s:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/random/CMakeFiles/gen_random_havege.dir/build.make programs/random/CMakeFiles/gen_random_havege.dir/gen_random_havege.c.s
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/random/CMakeFiles/gen_random_havege.dir/build.make programs/random/CMakeFiles/gen_random_havege.dir/gen_random_havege.c.s
 .PHONY : gen_random_havege.c.s
 
 # Help Target
@@ -317,6 +317,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

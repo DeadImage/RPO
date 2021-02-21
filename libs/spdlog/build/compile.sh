@@ -1,11 +1,11 @@
 #!/bin/bash
 
-#ABI=armeabi-v7a
+#ABI=armaebi-v7a
 ABI=x86
 #ABI=arm64-v8a
 #ABI=x86_64
 
-ANDROID_NDK=$HOME/Android/Sdk/ndk/21.1.6352462
+ANDROID_NDK=$HOME/Android/Sdk/ndk/21.1.6352462/
 TOOL_CHAIN=${ANDROID_NDK}/build/cmake/android.toolchain.cmake
 CMAKE=$HOME/Android/Sdk/cmake/3.10.2.4988404/bin/cmake
 

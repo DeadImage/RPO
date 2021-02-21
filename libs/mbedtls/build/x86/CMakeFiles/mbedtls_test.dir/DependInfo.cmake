@@ -4,22 +4,22 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/mbedtls/tests/src/drivers/cipher.c" "/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/cipher.c.o"
-  "/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/mbedtls/tests/src/drivers/key_management.c" "/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/key_management.c.o"
-  "/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/mbedtls/tests/src/drivers/signature.c" "/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/signature.c.o"
-  "/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/mbedtls/tests/src/drivers/size.c" "/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/size.c.o"
-  "/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/mbedtls/tests/src/fake_external_rng_for_test.c" "/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.o"
-  "/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/mbedtls/tests/src/helpers.c" "/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.o"
-  "/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/mbedtls/tests/src/psa_crypto_helpers.c" "/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.o"
-  "/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/mbedtls/tests/src/random.c" "/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/random.c.o"
+  "/home/ramazan/AndroidStudioProjects/libs/mbedtls/mbedtls/tests/src/drivers/cipher.c" "/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/cipher.c.o"
+  "/home/ramazan/AndroidStudioProjects/libs/mbedtls/mbedtls/tests/src/drivers/key_management.c" "/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/key_management.c.o"
+  "/home/ramazan/AndroidStudioProjects/libs/mbedtls/mbedtls/tests/src/drivers/signature.c" "/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/signature.c.o"
+  "/home/ramazan/AndroidStudioProjects/libs/mbedtls/mbedtls/tests/src/drivers/size.c" "/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/drivers/size.c.o"
+  "/home/ramazan/AndroidStudioProjects/libs/mbedtls/mbedtls/tests/src/fake_external_rng_for_test.c" "/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/fake_external_rng_for_test.c.o"
+  "/home/ramazan/AndroidStudioProjects/libs/mbedtls/mbedtls/tests/src/helpers.c" "/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/helpers.c.o"
+  "/home/ramazan/AndroidStudioProjects/libs/mbedtls/mbedtls/tests/src/psa_crypto_helpers.c" "/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/psa_crypto_helpers.c.o"
+  "/home/ramazan/AndroidStudioProjects/libs/mbedtls/mbedtls/tests/src/random.c" "/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles/mbedtls_test.dir/tests/src/random.c.o"
   )
 set(CMAKE_C_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/mbedtls/tests/include"
-  "/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/mbedtls/include"
-  "/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/mbedtls/library"
+  "/home/ramazan/AndroidStudioProjects/libs/mbedtls/mbedtls/tests/include"
+  "/home/ramazan/AndroidStudioProjects/libs/mbedtls/mbedtls/include"
+  "/home/ramazan/AndroidStudioProjects/libs/mbedtls/mbedtls/library"
   )
 
 # Targets to which this target links.

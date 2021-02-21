@@ -4,22 +4,22 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/mbedtls/programs/fuzz/common.c" "/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/programs/fuzz/CMakeFiles/fuzz_dtlsserver.dir/common.c.o"
-  "/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/mbedtls/programs/fuzz/fuzz_dtlsserver.c" "/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/programs/fuzz/CMakeFiles/fuzz_dtlsserver.dir/fuzz_dtlsserver.c.o"
-  "/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/mbedtls/programs/fuzz/onefile.c" "/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/programs/fuzz/CMakeFiles/fuzz_dtlsserver.dir/onefile.c.o"
+  "/home/ramazan/AndroidStudioProjects/libs/mbedtls/mbedtls/programs/fuzz/common.c" "/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/programs/fuzz/CMakeFiles/fuzz_dtlsserver.dir/common.c.o"
+  "/home/ramazan/AndroidStudioProjects/libs/mbedtls/mbedtls/programs/fuzz/fuzz_dtlsserver.c" "/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/programs/fuzz/CMakeFiles/fuzz_dtlsserver.dir/fuzz_dtlsserver.c.o"
+  "/home/ramazan/AndroidStudioProjects/libs/mbedtls/mbedtls/programs/fuzz/onefile.c" "/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/programs/fuzz/CMakeFiles/fuzz_dtlsserver.dir/onefile.c.o"
   )
 set(CMAKE_C_COMPILER_ID "Clang")
 
 # The include file search paths:
 set(CMAKE_C_TARGET_INCLUDE_PATH
-  "/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/mbedtls/include"
+  "/home/ramazan/AndroidStudioProjects/libs/mbedtls/mbedtls/include"
   )
 
 # Targets to which this target links.
 set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/library/CMakeFiles/mbedtls.dir/DependInfo.cmake"
-  "/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/library/CMakeFiles/mbedx509.dir/DependInfo.cmake"
-  "/home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/library/CMakeFiles/mbedcrypto.dir/DependInfo.cmake"
+  "/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/library/CMakeFiles/mbedtls.dir/DependInfo.cmake"
+  "/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/library/CMakeFiles/mbedx509.dir/DependInfo.cmake"
+  "/home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/library/CMakeFiles/mbedcrypto.dir/DependInfo.cmake"
   )
 
 # Fortran module output directory.

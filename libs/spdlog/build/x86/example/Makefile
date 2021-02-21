@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake
+CMAKE_COMMAND = /home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake
 
 # The command to remove a file.
-RM = /home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E remove -f
+RM = /home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog
+CMAKE_SOURCE_DIR = /home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/maxdeadim/AndroidStudioProjects/libs/spdlog/build/x86
+CMAKE_BINARY_DIR = /home/ramazan/AndroidStudioProjects/libs/spdlog/build/x86
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,37 +59,37 @@ CMAKE_BINARY_DIR = /home/maxdeadim/AndroidStudioProjects/libs/spdlog/build/x86
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -P cmake_install.cmake
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -P cmake_install.cmake
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target list_install_components
@@ -105,7 +105,7 @@ list_install_components/fast: list_install_components
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -116,7 +116,7 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -127,7 +127,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target package_source
 package_source:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool for source..."
-	cd /home/maxdeadim/AndroidStudioProjects/libs/spdlog/build/x86 && /home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cpack --config ./CPackSourceConfig.cmake /home/maxdeadim/AndroidStudioProjects/libs/spdlog/build/x86/CPackSourceConfig.cmake
+	cd /home/ramazan/AndroidStudioProjects/libs/spdlog/build/x86 && /home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cpack --config ./CPackSourceConfig.cmake /home/ramazan/AndroidStudioProjects/libs/spdlog/build/x86/CPackSourceConfig.cmake
 .PHONY : package_source
 
 # Special rule for the target package_source
@@ -138,7 +138,7 @@ package_source/fast: package_source
 # Special rule for the target package
 package: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Run CPack packaging tool..."
-	cd /home/maxdeadim/AndroidStudioProjects/libs/spdlog/build/x86 && /home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cpack --config ./CPackConfig.cmake
+	cd /home/ramazan/AndroidStudioProjects/libs/spdlog/build/x86 && /home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cpack --config ./CPackConfig.cmake
 .PHONY : package
 
 # Special rule for the target package
@@ -148,14 +148,14 @@ package/fast: package
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/maxdeadim/AndroidStudioProjects/libs/spdlog/build/x86 && $(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/spdlog/build/x86/CMakeFiles /home/maxdeadim/AndroidStudioProjects/libs/spdlog/build/x86/example/CMakeFiles/progress.marks
-	cd /home/maxdeadim/AndroidStudioProjects/libs/spdlog/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 example/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/spdlog/build/x86/CMakeFiles 0
+	cd /home/ramazan/AndroidStudioProjects/libs/spdlog/build/x86 && $(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/spdlog/build/x86/CMakeFiles /home/ramazan/AndroidStudioProjects/libs/spdlog/build/x86/example/CMakeFiles/progress.marks
+	cd /home/ramazan/AndroidStudioProjects/libs/spdlog/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 example/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/spdlog/build/x86/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/spdlog/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 example/clean
+	cd /home/ramazan/AndroidStudioProjects/libs/spdlog/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 example/clean
 .PHONY : clean
 
 # The main clean target
@@ -165,22 +165,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/maxdeadim/AndroidStudioProjects/libs/spdlog/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 example/preinstall
+	cd /home/ramazan/AndroidStudioProjects/libs/spdlog/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 example/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/spdlog/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 example/preinstall
+	cd /home/ramazan/AndroidStudioProjects/libs/spdlog/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 example/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/spdlog/build/x86 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ramazan/AndroidStudioProjects/libs/spdlog/build/x86 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 example/CMakeFiles/example.dir/rule:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/spdlog/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 example/CMakeFiles/example.dir/rule
+	cd /home/ramazan/AndroidStudioProjects/libs/spdlog/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 example/CMakeFiles/example.dir/rule
 .PHONY : example/CMakeFiles/example.dir/rule
 
 # Convenience name for target.
@@ -190,7 +190,7 @@ example: example/CMakeFiles/example.dir/rule
 
 # fast build rule for target.
 example/fast:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/spdlog/build/x86 && $(MAKE) -f example/CMakeFiles/example.dir/build.make example/CMakeFiles/example.dir/build
+	cd /home/ramazan/AndroidStudioProjects/libs/spdlog/build/x86 && $(MAKE) -f example/CMakeFiles/example.dir/build.make example/CMakeFiles/example.dir/build
 .PHONY : example/fast
 
 example.o: example.cpp.o
@@ -199,7 +199,7 @@ example.o: example.cpp.o
 
 # target to build an object file
 example.cpp.o:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/spdlog/build/x86 && $(MAKE) -f example/CMakeFiles/example.dir/build.make example/CMakeFiles/example.dir/example.cpp.o
+	cd /home/ramazan/AndroidStudioProjects/libs/spdlog/build/x86 && $(MAKE) -f example/CMakeFiles/example.dir/build.make example/CMakeFiles/example.dir/example.cpp.o
 .PHONY : example.cpp.o
 
 example.i: example.cpp.i
@@ -208,7 +208,7 @@ example.i: example.cpp.i
 
 # target to preprocess a source file
 example.cpp.i:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/spdlog/build/x86 && $(MAKE) -f example/CMakeFiles/example.dir/build.make example/CMakeFiles/example.dir/example.cpp.i
+	cd /home/ramazan/AndroidStudioProjects/libs/spdlog/build/x86 && $(MAKE) -f example/CMakeFiles/example.dir/build.make example/CMakeFiles/example.dir/example.cpp.i
 .PHONY : example.cpp.i
 
 example.s: example.cpp.s
@@ -217,7 +217,7 @@ example.s: example.cpp.s
 
 # target to generate assembly for a file
 example.cpp.s:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/spdlog/build/x86 && $(MAKE) -f example/CMakeFiles/example.dir/build.make example/CMakeFiles/example.dir/example.cpp.s
+	cd /home/ramazan/AndroidStudioProjects/libs/spdlog/build/x86 && $(MAKE) -f example/CMakeFiles/example.dir/build.make example/CMakeFiles/example.dir/example.cpp.s
 .PHONY : example.cpp.s
 
 # Help Target
@@ -249,6 +249,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/spdlog/build/x86 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ramazan/AndroidStudioProjects/libs/spdlog/build/x86 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

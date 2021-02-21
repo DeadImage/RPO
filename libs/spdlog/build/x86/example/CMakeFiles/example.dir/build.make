@@ -34,19 +34,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake
+CMAKE_COMMAND = /home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake
 
 # The command to remove a file.
-RM = /home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E remove -f
+RM = /home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog
+CMAKE_SOURCE_DIR = /home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/maxdeadim/AndroidStudioProjects/libs/spdlog/build/x86
+CMAKE_BINARY_DIR = /home/ramazan/AndroidStudioProjects/libs/spdlog/build/x86
 
 # Include any dependencies generated for this target.
 include example/CMakeFiles/example.dir/depend.make
@@ -58,17 +58,17 @@ include example/CMakeFiles/example.dir/progress.make
 include example/CMakeFiles/example.dir/flags.make
 
 example/CMakeFiles/example.dir/example.cpp.o: example/CMakeFiles/example.dir/flags.make
-example/CMakeFiles/example.dir/example.cpp.o: /home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/example/example.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/spdlog/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/CMakeFiles/example.dir/example.cpp.o"
-	cd /home/maxdeadim/AndroidStudioProjects/libs/spdlog/build/x86/example && /home/maxdeadim/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android16 --gcc-toolchain=/home/maxdeadim/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/maxdeadim/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/example.cpp.o -c /home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/example/example.cpp
+example/CMakeFiles/example.dir/example.cpp.o: /home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/example/example.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/ramazan/AndroidStudioProjects/libs/spdlog/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object example/CMakeFiles/example.dir/example.cpp.o"
+	cd /home/ramazan/AndroidStudioProjects/libs/spdlog/build/x86/example && /home/ramazan/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android16 --gcc-toolchain=/home/ramazan/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/ramazan/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/example.dir/example.cpp.o -c /home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/example/example.cpp
 
 example/CMakeFiles/example.dir/example.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/example.dir/example.cpp.i"
-	cd /home/maxdeadim/AndroidStudioProjects/libs/spdlog/build/x86/example && /home/maxdeadim/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android16 --gcc-toolchain=/home/maxdeadim/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/maxdeadim/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/example/example.cpp > CMakeFiles/example.dir/example.cpp.i
+	cd /home/ramazan/AndroidStudioProjects/libs/spdlog/build/x86/example && /home/ramazan/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android16 --gcc-toolchain=/home/ramazan/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/ramazan/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/example/example.cpp > CMakeFiles/example.dir/example.cpp.i
 
 example/CMakeFiles/example.dir/example.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/example.dir/example.cpp.s"
-	cd /home/maxdeadim/AndroidStudioProjects/libs/spdlog/build/x86/example && /home/maxdeadim/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android16 --gcc-toolchain=/home/maxdeadim/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/maxdeadim/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/example/example.cpp -o CMakeFiles/example.dir/example.cpp.s
+	cd /home/ramazan/AndroidStudioProjects/libs/spdlog/build/x86/example && /home/ramazan/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/bin/clang++ --target=i686-none-linux-android16 --gcc-toolchain=/home/ramazan/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64 --sysroot=/home/ramazan/Android/Sdk/ndk/21.1.6352462/toolchains/llvm/prebuilt/linux-x86_64/sysroot $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/example/example.cpp -o CMakeFiles/example.dir/example.cpp.s
 
 example/CMakeFiles/example.dir/example.cpp.o.requires:
 
@@ -92,8 +92,8 @@ example/example: example/CMakeFiles/example.dir/example.cpp.o
 example/example: example/CMakeFiles/example.dir/build.make
 example/example: libspdlog.a
 example/example: example/CMakeFiles/example.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/maxdeadim/AndroidStudioProjects/libs/spdlog/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable example"
-	cd /home/maxdeadim/AndroidStudioProjects/libs/spdlog/build/x86/example && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/example.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/ramazan/AndroidStudioProjects/libs/spdlog/build/x86/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable example"
+	cd /home/ramazan/AndroidStudioProjects/libs/spdlog/build/x86/example && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/example.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 example/CMakeFiles/example.dir/build: example/example
@@ -105,10 +105,10 @@ example/CMakeFiles/example.dir/requires: example/CMakeFiles/example.dir/example.
 .PHONY : example/CMakeFiles/example.dir/requires
 
 example/CMakeFiles/example.dir/clean:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/spdlog/build/x86/example && $(CMAKE_COMMAND) -P CMakeFiles/example.dir/cmake_clean.cmake
+	cd /home/ramazan/AndroidStudioProjects/libs/spdlog/build/x86/example && $(CMAKE_COMMAND) -P CMakeFiles/example.dir/cmake_clean.cmake
 .PHONY : example/CMakeFiles/example.dir/clean
 
 example/CMakeFiles/example.dir/depend:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/spdlog/build/x86 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog /home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/example /home/maxdeadim/AndroidStudioProjects/libs/spdlog/build/x86 /home/maxdeadim/AndroidStudioProjects/libs/spdlog/build/x86/example /home/maxdeadim/AndroidStudioProjects/libs/spdlog/build/x86/example/CMakeFiles/example.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/ramazan/AndroidStudioProjects/libs/spdlog/build/x86 && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog /home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/example /home/ramazan/AndroidStudioProjects/libs/spdlog/build/x86 /home/ramazan/AndroidStudioProjects/libs/spdlog/build/x86/example /home/ramazan/AndroidStudioProjects/libs/spdlog/build/x86/example/CMakeFiles/example.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : example/CMakeFiles/example.dir/depend
 

@@ -39,19 +39,19 @@ cmake_force:
 SHELL = /bin/sh
 
 # The CMake executable.
-CMAKE_COMMAND = /home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake
+CMAKE_COMMAND = /home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake
 
 # The command to remove a file.
-RM = /home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E remove -f
+RM = /home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E remove -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/mbedtls
+CMAKE_SOURCE_DIR = /home/ramazan/AndroidStudioProjects/libs/mbedtls/mbedtls
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86
+CMAKE_BINARY_DIR = /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -59,7 +59,7 @@ CMAKE_BINARY_DIR = /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -70,7 +70,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -81,13 +81,13 @@ rebuild_cache/fast: rebuild_cache
 # Special rule for the target install/strip
 install/strip: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip
 
 # Special rule for the target install/strip
 install/strip/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing the project stripped..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_DO_STRIP=1 -P cmake_install.cmake
 .PHONY : install/strip/fast
 
 # Special rule for the target list_install_components
@@ -103,37 +103,37 @@ list_install_components/fast: list_install_components
 # Special rule for the target install
 install: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -P cmake_install.cmake
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -P cmake_install.cmake
 .PHONY : install
 
 # Special rule for the target install
 install/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Install the project..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -P cmake_install.cmake
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -P cmake_install.cmake
 .PHONY : install/fast
 
 # Special rule for the target install/local
 install/local: preinstall
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local
 
 # Special rule for the target install/local
 install/local/fast: preinstall/fast
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Installing only the local directory..."
-	/home/maxdeadim/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
+	/home/ramazan/Android/Sdk/cmake/3.10.2.4988404/bin/cmake -DCMAKE_INSTALL_LOCAL_ONLY=1 -P cmake_install.cmake
 .PHONY : install/local/fast
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/programs/x509/CMakeFiles/progress.marks
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/x509/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/programs/x509/CMakeFiles/progress.marks
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/x509/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/x509/clean
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/x509/clean
 .PHONY : clean
 
 # The main clean target
@@ -143,22 +143,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/x509/preinstall
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/x509/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/x509/preinstall
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/x509/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 programs/x509/CMakeFiles/cert_write.dir/rule:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/x509/CMakeFiles/cert_write.dir/rule
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/x509/CMakeFiles/cert_write.dir/rule
 .PHONY : programs/x509/CMakeFiles/cert_write.dir/rule
 
 # Convenience name for target.
@@ -168,12 +168,12 @@ cert_write: programs/x509/CMakeFiles/cert_write.dir/rule
 
 # fast build rule for target.
 cert_write/fast:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/cert_write.dir/build.make programs/x509/CMakeFiles/cert_write.dir/build
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/cert_write.dir/build.make programs/x509/CMakeFiles/cert_write.dir/build
 .PHONY : cert_write/fast
 
 # Convenience name for target.
 programs/x509/CMakeFiles/cert_req.dir/rule:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/x509/CMakeFiles/cert_req.dir/rule
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/x509/CMakeFiles/cert_req.dir/rule
 .PHONY : programs/x509/CMakeFiles/cert_req.dir/rule
 
 # Convenience name for target.
@@ -183,12 +183,12 @@ cert_req: programs/x509/CMakeFiles/cert_req.dir/rule
 
 # fast build rule for target.
 cert_req/fast:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/cert_req.dir/build.make programs/x509/CMakeFiles/cert_req.dir/build
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/cert_req.dir/build.make programs/x509/CMakeFiles/cert_req.dir/build
 .PHONY : cert_req/fast
 
 # Convenience name for target.
 programs/x509/CMakeFiles/req_app.dir/rule:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/x509/CMakeFiles/req_app.dir/rule
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/x509/CMakeFiles/req_app.dir/rule
 .PHONY : programs/x509/CMakeFiles/req_app.dir/rule
 
 # Convenience name for target.
@@ -198,12 +198,12 @@ req_app: programs/x509/CMakeFiles/req_app.dir/rule
 
 # fast build rule for target.
 req_app/fast:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/req_app.dir/build.make programs/x509/CMakeFiles/req_app.dir/build
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/req_app.dir/build.make programs/x509/CMakeFiles/req_app.dir/build
 .PHONY : req_app/fast
 
 # Convenience name for target.
 programs/x509/CMakeFiles/crl_app.dir/rule:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/x509/CMakeFiles/crl_app.dir/rule
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/x509/CMakeFiles/crl_app.dir/rule
 .PHONY : programs/x509/CMakeFiles/crl_app.dir/rule
 
 # Convenience name for target.
@@ -213,12 +213,12 @@ crl_app: programs/x509/CMakeFiles/crl_app.dir/rule
 
 # fast build rule for target.
 crl_app/fast:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/crl_app.dir/build.make programs/x509/CMakeFiles/crl_app.dir/build
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/crl_app.dir/build.make programs/x509/CMakeFiles/crl_app.dir/build
 .PHONY : crl_app/fast
 
 # Convenience name for target.
 programs/x509/CMakeFiles/cert_app.dir/rule:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/x509/CMakeFiles/cert_app.dir/rule
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f CMakeFiles/Makefile2 programs/x509/CMakeFiles/cert_app.dir/rule
 .PHONY : programs/x509/CMakeFiles/cert_app.dir/rule
 
 # Convenience name for target.
@@ -228,7 +228,7 @@ cert_app: programs/x509/CMakeFiles/cert_app.dir/rule
 
 # fast build rule for target.
 cert_app/fast:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/cert_app.dir/build.make programs/x509/CMakeFiles/cert_app.dir/build
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/cert_app.dir/build.make programs/x509/CMakeFiles/cert_app.dir/build
 .PHONY : cert_app/fast
 
 cert_app.o: cert_app.c.o
@@ -237,7 +237,7 @@ cert_app.o: cert_app.c.o
 
 # target to build an object file
 cert_app.c.o:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/cert_app.dir/build.make programs/x509/CMakeFiles/cert_app.dir/cert_app.c.o
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/cert_app.dir/build.make programs/x509/CMakeFiles/cert_app.dir/cert_app.c.o
 .PHONY : cert_app.c.o
 
 cert_app.i: cert_app.c.i
@@ -246,7 +246,7 @@ cert_app.i: cert_app.c.i
 
 # target to preprocess a source file
 cert_app.c.i:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/cert_app.dir/build.make programs/x509/CMakeFiles/cert_app.dir/cert_app.c.i
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/cert_app.dir/build.make programs/x509/CMakeFiles/cert_app.dir/cert_app.c.i
 .PHONY : cert_app.c.i
 
 cert_app.s: cert_app.c.s
@@ -255,7 +255,7 @@ cert_app.s: cert_app.c.s
 
 # target to generate assembly for a file
 cert_app.c.s:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/cert_app.dir/build.make programs/x509/CMakeFiles/cert_app.dir/cert_app.c.s
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/cert_app.dir/build.make programs/x509/CMakeFiles/cert_app.dir/cert_app.c.s
 .PHONY : cert_app.c.s
 
 cert_req.o: cert_req.c.o
@@ -264,7 +264,7 @@ cert_req.o: cert_req.c.o
 
 # target to build an object file
 cert_req.c.o:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/cert_req.dir/build.make programs/x509/CMakeFiles/cert_req.dir/cert_req.c.o
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/cert_req.dir/build.make programs/x509/CMakeFiles/cert_req.dir/cert_req.c.o
 .PHONY : cert_req.c.o
 
 cert_req.i: cert_req.c.i
@@ -273,7 +273,7 @@ cert_req.i: cert_req.c.i
 
 # target to preprocess a source file
 cert_req.c.i:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/cert_req.dir/build.make programs/x509/CMakeFiles/cert_req.dir/cert_req.c.i
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/cert_req.dir/build.make programs/x509/CMakeFiles/cert_req.dir/cert_req.c.i
 .PHONY : cert_req.c.i
 
 cert_req.s: cert_req.c.s
@@ -282,7 +282,7 @@ cert_req.s: cert_req.c.s
 
 # target to generate assembly for a file
 cert_req.c.s:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/cert_req.dir/build.make programs/x509/CMakeFiles/cert_req.dir/cert_req.c.s
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/cert_req.dir/build.make programs/x509/CMakeFiles/cert_req.dir/cert_req.c.s
 .PHONY : cert_req.c.s
 
 cert_write.o: cert_write.c.o
@@ -291,7 +291,7 @@ cert_write.o: cert_write.c.o
 
 # target to build an object file
 cert_write.c.o:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/cert_write.dir/build.make programs/x509/CMakeFiles/cert_write.dir/cert_write.c.o
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/cert_write.dir/build.make programs/x509/CMakeFiles/cert_write.dir/cert_write.c.o
 .PHONY : cert_write.c.o
 
 cert_write.i: cert_write.c.i
@@ -300,7 +300,7 @@ cert_write.i: cert_write.c.i
 
 # target to preprocess a source file
 cert_write.c.i:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/cert_write.dir/build.make programs/x509/CMakeFiles/cert_write.dir/cert_write.c.i
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/cert_write.dir/build.make programs/x509/CMakeFiles/cert_write.dir/cert_write.c.i
 .PHONY : cert_write.c.i
 
 cert_write.s: cert_write.c.s
@@ -309,7 +309,7 @@ cert_write.s: cert_write.c.s
 
 # target to generate assembly for a file
 cert_write.c.s:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/cert_write.dir/build.make programs/x509/CMakeFiles/cert_write.dir/cert_write.c.s
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/cert_write.dir/build.make programs/x509/CMakeFiles/cert_write.dir/cert_write.c.s
 .PHONY : cert_write.c.s
 
 crl_app.o: crl_app.c.o
@@ -318,7 +318,7 @@ crl_app.o: crl_app.c.o
 
 # target to build an object file
 crl_app.c.o:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/crl_app.dir/build.make programs/x509/CMakeFiles/crl_app.dir/crl_app.c.o
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/crl_app.dir/build.make programs/x509/CMakeFiles/crl_app.dir/crl_app.c.o
 .PHONY : crl_app.c.o
 
 crl_app.i: crl_app.c.i
@@ -327,7 +327,7 @@ crl_app.i: crl_app.c.i
 
 # target to preprocess a source file
 crl_app.c.i:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/crl_app.dir/build.make programs/x509/CMakeFiles/crl_app.dir/crl_app.c.i
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/crl_app.dir/build.make programs/x509/CMakeFiles/crl_app.dir/crl_app.c.i
 .PHONY : crl_app.c.i
 
 crl_app.s: crl_app.c.s
@@ -336,7 +336,7 @@ crl_app.s: crl_app.c.s
 
 # target to generate assembly for a file
 crl_app.c.s:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/crl_app.dir/build.make programs/x509/CMakeFiles/crl_app.dir/crl_app.c.s
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/crl_app.dir/build.make programs/x509/CMakeFiles/crl_app.dir/crl_app.c.s
 .PHONY : crl_app.c.s
 
 req_app.o: req_app.c.o
@@ -345,7 +345,7 @@ req_app.o: req_app.c.o
 
 # target to build an object file
 req_app.c.o:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/req_app.dir/build.make programs/x509/CMakeFiles/req_app.dir/req_app.c.o
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/req_app.dir/build.make programs/x509/CMakeFiles/req_app.dir/req_app.c.o
 .PHONY : req_app.c.o
 
 req_app.i: req_app.c.i
@@ -354,7 +354,7 @@ req_app.i: req_app.c.i
 
 # target to preprocess a source file
 req_app.c.i:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/req_app.dir/build.make programs/x509/CMakeFiles/req_app.dir/req_app.c.i
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/req_app.dir/build.make programs/x509/CMakeFiles/req_app.dir/req_app.c.i
 .PHONY : req_app.c.i
 
 req_app.s: req_app.c.s
@@ -363,7 +363,7 @@ req_app.s: req_app.c.s
 
 # target to generate assembly for a file
 req_app.c.s:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/req_app.dir/build.make programs/x509/CMakeFiles/req_app.dir/req_app.c.s
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(MAKE) -f programs/x509/CMakeFiles/req_app.dir/build.make programs/x509/CMakeFiles/req_app.dir/req_app.c.s
 .PHONY : req_app.c.s
 
 # Help Target
@@ -409,6 +409,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/maxdeadim/AndroidStudioProjects/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/ramazan/AndroidStudioProjects/libs/mbedtls/build/x86 && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

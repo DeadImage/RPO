@@ -44,18 +44,32 @@ find_library( # Sets the name of the path variable.
 add_definitions(-DSDLOG_COMPILED_LIB)
 add_library(spdlog STATIC IMPORTED)
 set_target_properties(
-        spdlog PROPERTIES IMPORTED_LOCATION /home/maxdeadim/AndroidStudioProjects/libs/spdlog/build/${ANDROID_ABI}/libspdlog.a
+        spdlog PROPERTIES IMPORTED_LOCATION C:/Work/rpo/RPO/libs/spdlog/build/${ANDROID_ABI}/libspdlog.a
 )
 
 target_include_directories(
         native-lib PUBLIC
-        ~/AndroidStudioProjects/libs/spdlog/spdlog/include
+        C:/Work/rpo/RPO/libs/spdlog/spdlog/include
+        C:/Work/rpo/RPO/libs/mbedtls/mbedtls/include
 
 )
+
+add_library(mbedcrypto SHARED IMPORTED)
+set_target_properties(
+        mbedcrypto PROPERTIES IMPORTED_LOCATION ${CMAKE_CURRENT_SOURCE_DIR}/../cmakeLibs/${ANDROID_ABI}/libmbedcrypto.so
+)
+
+configure_file(
+        C:/Work/rpo/RPO/libs/mbedtls/build/${ANDROID_ABI}/library/libmbedcrypto.so
+        ${CMAKE_CURRENT_SOURCE_DIR}/../cmakeLibs/${ANDROID_ABI}/libmbedcrypto.so
+        COPYONLY
+)
+
 
 target_link_libraries( # Specifies the target library.
                        native-lib
                        spdlog
+                       mbedcrypto
                        # Links the target library to the log library
                        # included in the NDK.
                        ${log-lib} )

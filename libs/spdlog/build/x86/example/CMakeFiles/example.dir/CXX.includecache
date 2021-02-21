@@ -6,41 +6,41 @@
 
 #IncludeRegexTransform: 
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/example/example.cpp
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/example/example.cpp
 cstdio
 -
 spdlog/spdlog.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/example/spdlog/spdlog.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/example/spdlog/spdlog.h
 spdlog/cfg/env.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/example/spdlog/cfg/env.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/example/spdlog/cfg/env.h
 spdlog/sinks/stdout_color_sinks.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/example/spdlog/sinks/stdout_color_sinks.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/example/spdlog/sinks/stdout_color_sinks.h
 spdlog/sinks/basic_file_sink.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/example/spdlog/sinks/basic_file_sink.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/example/spdlog/sinks/basic_file_sink.h
 spdlog/sinks/rotating_file_sink.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/example/spdlog/sinks/rotating_file_sink.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/example/spdlog/sinks/rotating_file_sink.h
 spdlog/sinks/daily_file_sink.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/example/spdlog/sinks/daily_file_sink.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/example/spdlog/sinks/daily_file_sink.h
 spdlog/cfg/env.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/example/spdlog/cfg/env.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/example/spdlog/cfg/env.h
 spdlog/async.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/example/spdlog/async.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/example/spdlog/async.h
 spdlog/fmt/bin_to_hex.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/example/spdlog/fmt/bin_to_hex.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/example/spdlog/fmt/bin_to_hex.h
 spdlog/stopwatch.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/example/spdlog/stopwatch.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/example/spdlog/stopwatch.h
 thread
 -
 spdlog/fmt/ostr.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/example/spdlog/fmt/ostr.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/example/spdlog/fmt/ostr.h
 spdlog/sinks/syslog_sink.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/example/spdlog/sinks/syslog_sink.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/example/spdlog/sinks/syslog_sink.h
 spdlog/sinks/android_sink.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/example/spdlog/sinks/android_sink.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/example/spdlog/sinks/android_sink.h
 spdlog/pattern_formatter.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/example/spdlog/pattern_formatter.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/example/spdlog/pattern_formatter.h
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/async.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/async.h
 spdlog/async_logger.h
 -
 spdlog/details/registry.h
@@ -54,7 +54,7 @@ mutex
 functional
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/async_logger-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/async_logger-inl.h
 spdlog/async_logger.h
 -
 spdlog/sinks/sink.h
@@ -66,13 +66,13 @@ memory
 string
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/async_logger.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/async_logger.h
 spdlog/logger.h
 -
 async_logger-inl.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/async_logger-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/async_logger-inl.h
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/cfg/env.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/cfg/env.h
 spdlog/cfg/helpers.h
 -
 spdlog/details/registry.h
@@ -80,7 +80,7 @@ spdlog/details/registry.h
 spdlog/details/os.h
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/cfg/helpers-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/cfg/helpers-inl.h
 spdlog/cfg/helpers.h
 -
 spdlog/spdlog.h
@@ -98,19 +98,19 @@ utility
 sstream
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/cfg/helpers.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/cfg/helpers.h
 spdlog/common.h
 -
 unordered_map
 -
 helpers-inl.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/cfg/helpers-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/cfg/helpers-inl.h
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/common-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/common-inl.h
 spdlog/common.h
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/common.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/common.h
 spdlog/tweakme.h
 -
 spdlog/details/null_mutex.h
@@ -134,13 +134,13 @@ functional
 spdlog/fmt/fmt.h
 -
 common-inl.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/common-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/common-inl.h
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/backtracer-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/backtracer-inl.h
 spdlog/details/backtracer.h
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/backtracer.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/backtracer.h
 spdlog/details/log_msg_buffer.h
 -
 spdlog/details/circular_q.h
@@ -152,21 +152,21 @@ mutex
 functional
 -
 backtracer-inl.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/backtracer-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/backtracer-inl.h
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/circular_q.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/circular_q.h
 vector
 -
 cassert
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/console_globals.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/console_globals.h
 spdlog/details/null_mutex.h
 -
 mutex
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/file_helper-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/file_helper-inl.h
 spdlog/details/file_helper.h
 -
 spdlog/details/os.h
@@ -186,15 +186,15 @@ thread
 tuple
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/file_helper.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/file_helper.h
 spdlog/common.h
 -
 tuple
 -
 file_helper-inl.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/file_helper-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/file_helper-inl.h
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/fmt_helper.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/fmt_helper.h
 chrono
 -
 type_traits
@@ -204,31 +204,31 @@ spdlog/fmt/fmt.h
 spdlog/common.h
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/log_msg-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/log_msg-inl.h
 spdlog/details/log_msg.h
 -
 spdlog/details/os.h
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/log_msg.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/log_msg.h
 spdlog/common.h
 -
 string
 -
 log_msg-inl.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/log_msg-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/log_msg-inl.h
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/log_msg_buffer-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/log_msg_buffer-inl.h
 spdlog/details/log_msg_buffer.h
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/log_msg_buffer.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/log_msg_buffer.h
 spdlog/details/log_msg.h
 -
 log_msg_buffer-inl.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/log_msg_buffer-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/log_msg_buffer-inl.h
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/mpmc_blocking_q.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/mpmc_blocking_q.h
 spdlog/details/circular_q.h
 -
 condition_variable
@@ -236,13 +236,13 @@ condition_variable
 mutex
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/null_mutex.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/null_mutex.h
 atomic
 -
 utility
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/os-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/os-inl.h
 spdlog/details/os.h
 -
 spdlog/common.h
@@ -296,19 +296,19 @@ lwp.h
 thread.h
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/os.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/os.h
 spdlog/common.h
 -
 ctime
 -
 os-inl.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/os-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/os-inl.h
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/periodic_worker-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/periodic_worker-inl.h
 spdlog/details/periodic_worker.h
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/periodic_worker.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/periodic_worker.h
 chrono
 -
 condition_variable
@@ -320,9 +320,9 @@ mutex
 thread
 -
 periodic_worker-inl.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/periodic_worker-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/periodic_worker-inl.h
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/registry-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/registry-inl.h
 spdlog/details/registry.h
 -
 spdlog/common.h
@@ -348,7 +348,7 @@ string
 unordered_map
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/registry.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/registry.h
 spdlog/common.h
 -
 chrono
@@ -364,13 +364,13 @@ unordered_map
 mutex
 -
 registry-inl.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/registry-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/registry-inl.h
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/synchronous_factory.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/synchronous_factory.h
 registry.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/registry.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/registry.h
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/thread_pool-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/thread_pool-inl.h
 spdlog/details/thread_pool.h
 -
 spdlog/common.h
@@ -378,7 +378,7 @@ spdlog/common.h
 cassert
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/thread_pool.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/thread_pool.h
 spdlog/details/log_msg_buffer.h
 -
 spdlog/details/mpmc_blocking_q.h
@@ -398,17 +398,17 @@ functional
 spdlog/details/log_msg_buffer.h
 -
 thread_pool-inl.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/thread_pool-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/thread_pool-inl.h
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/windows_include.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/details/windows_include.h
 windows.h
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/fmt/bin_to_hex.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/fmt/bin_to_hex.h
 cctype
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/fmt/bundled/core.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/fmt/bundled/core.h
 cstdio
 -
 cstring
@@ -432,7 +432,7 @@ experimental/string_view
 fmt/core.h
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format-inl.h
 cassert
 -
 cctype
@@ -454,9 +454,9 @@ locale
 io.h
 -
 format.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format.h
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format.h
 algorithm
 -
 cerrno
@@ -472,21 +472,21 @@ memory
 stdexcept
 -
 core.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/fmt/bundled/core.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/fmt/bundled/core.h
 intrin.h
 -
 fmt/format.h
 -
 format-inl.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format-inl.h
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/fmt/bundled/ostream.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/fmt/bundled/ostream.h
 ostream
 -
 format.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/fmt/bundled/format.h
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/fmt/fmt.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/fmt/fmt.h
 spdlog/fmt/bundled/core.h
 -
 spdlog/fmt/bundled/format.h
@@ -496,19 +496,19 @@ fmt/core.h
 fmt/format.h
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/fmt/ostr.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/fmt/ostr.h
 spdlog/fmt/bundled/ostream.h
 -
 fmt/ostream.h
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/formatter.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/formatter.h
 spdlog/fmt/fmt.h
 -
 spdlog/details/log_msg.h
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/logger-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/logger-inl.h
 spdlog/logger.h
 -
 spdlog/sinks/sink.h
@@ -520,7 +520,7 @@ spdlog/pattern_formatter.h
 cstdio
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/logger.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/logger.h
 spdlog/common.h
 -
 spdlog/details/log_msg.h
@@ -532,9 +532,9 @@ spdlog/details/os.h
 vector
 -
 logger-inl.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/logger-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/logger-inl.h
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/pattern_formatter-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/pattern_formatter-inl.h
 spdlog/pattern_formatter.h
 -
 spdlog/details/fmt_helper.h
@@ -574,7 +574,7 @@ utility
 vector
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/pattern_formatter.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/pattern_formatter.h
 spdlog/common.h
 -
 spdlog/details/log_msg.h
@@ -596,9 +596,9 @@ vector
 unordered_map
 -
 pattern_formatter-inl.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/pattern_formatter-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/pattern_formatter-inl.h
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/android_sink.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/android_sink.h
 spdlog/details/fmt_helper.h
 -
 spdlog/details/null_mutex.h
@@ -620,7 +620,7 @@ string
 thread
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h
 spdlog/sinks/ansicolor_sink.h
 -
 spdlog/pattern_formatter.h
@@ -628,7 +628,7 @@ spdlog/pattern_formatter.h
 spdlog/details/os.h
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/ansicolor_sink.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/ansicolor_sink.h
 spdlog/details/console_globals.h
 -
 spdlog/details/null_mutex.h
@@ -644,9 +644,9 @@ string
 array
 -
 ansicolor_sink-inl.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/ansicolor_sink-inl.h
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/base_sink-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/base_sink-inl.h
 spdlog/sinks/base_sink.h
 -
 spdlog/common.h
@@ -656,7 +656,7 @@ spdlog/pattern_formatter.h
 memory
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/base_sink.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/base_sink.h
 spdlog/common.h
 -
 spdlog/details/log_msg.h
@@ -664,9 +664,9 @@ spdlog/details/log_msg.h
 spdlog/sinks/sink.h
 -
 base_sink-inl.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/base_sink-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/base_sink-inl.h
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/basic_file_sink-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/basic_file_sink-inl.h
 spdlog/sinks/basic_file_sink.h
 -
 spdlog/common.h
@@ -674,7 +674,7 @@ spdlog/common.h
 spdlog/details/os.h
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/basic_file_sink.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/basic_file_sink.h
 spdlog/details/file_helper.h
 -
 spdlog/details/null_mutex.h
@@ -688,9 +688,9 @@ mutex
 string
 -
 basic_file_sink-inl.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/basic_file_sink-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/basic_file_sink-inl.h
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/daily_file_sink.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/daily_file_sink.h
 spdlog/common.h
 -
 spdlog/details/file_helper.h
@@ -718,7 +718,7 @@ mutex
 string
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/rotating_file_sink-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/rotating_file_sink-inl.h
 spdlog/sinks/rotating_file_sink.h
 -
 spdlog/common.h
@@ -742,7 +742,7 @@ string
 tuple
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/rotating_file_sink.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/rotating_file_sink.h
 spdlog/sinks/base_sink.h
 -
 spdlog/details/file_helper.h
@@ -758,23 +758,23 @@ mutex
 string
 -
 rotating_file_sink-inl.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/rotating_file_sink-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/rotating_file_sink-inl.h
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/sink-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/sink-inl.h
 spdlog/sinks/sink.h
 -
 spdlog/common.h
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/sink.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/sink.h
 spdlog/details/log_msg.h
 -
 spdlog/formatter.h
 -
 sink-inl.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/sink-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/sink-inl.h
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h
 spdlog/sinks/stdout_color_sinks.h
 -
 spdlog/logger.h
@@ -782,7 +782,7 @@ spdlog/logger.h
 spdlog/common.h
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/stdout_color_sinks.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/stdout_color_sinks.h
 spdlog/sinks/wincolor_sink.h
 -
 spdlog/sinks/ansicolor_sink.h
@@ -790,9 +790,9 @@ spdlog/sinks/ansicolor_sink.h
 spdlog/details/synchronous_factory.h
 -
 stdout_color_sinks-inl.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/stdout_color_sinks-inl.h
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/syslog_sink.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/syslog_sink.h
 spdlog/sinks/base_sink.h
 -
 spdlog/details/null_mutex.h
@@ -806,7 +806,7 @@ string
 syslog.h
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/wincolor_sink-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/wincolor_sink-inl.h
 spdlog/sinks/wincolor_sink.h
 -
 spdlog/details/windows_include.h
@@ -818,7 +818,7 @@ spdlog/common.h
 spdlog/pattern_formatter.h
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/wincolor_sink.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/wincolor_sink.h
 spdlog/common.h
 -
 spdlog/details/console_globals.h
@@ -838,9 +838,9 @@ array
 cstdint
 -
 wincolor_sink-inl.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/wincolor_sink-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/sinks/wincolor_sink-inl.h
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/spdlog-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/spdlog-inl.h
 spdlog/spdlog.h
 -
 spdlog/common.h
@@ -848,7 +848,7 @@ spdlog/common.h
 spdlog/pattern_formatter.h
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/spdlog.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/spdlog.h
 spdlog/common.h
 -
 spdlog/details/registry.h
@@ -868,13 +868,13 @@ memory
 string
 -
 spdlog-inl.h
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/spdlog-inl.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/spdlog-inl.h
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/stopwatch.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/stopwatch.h
 spdlog/fmt/fmt.h
 -
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/tweakme.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/tweakme.h
 
-/home/maxdeadim/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/version.h
+/home/ramazan/AndroidStudioProjects/libs/spdlog/spdlog/include/spdlog/version.h
 
