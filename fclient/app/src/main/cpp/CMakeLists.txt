@@ -44,13 +44,13 @@ find_library( # Sets the name of the path variable.
 add_definitions(-DSDLOG_COMPILED_LIB)
 add_library(spdlog STATIC IMPORTED)
 set_target_properties(
-        spdlog PROPERTIES IMPORTED_LOCATION C:/Work/rpo/RPO/libs/spdlog/build/${ANDROID_ABI}/libspdlog.a
+        spdlog PROPERTIES IMPORTED_LOCATION D:/Work/rpo/RPO/libs/spdlog/build/${ANDROID_ABI}/libspdlog.a
 )
 
 target_include_directories(
         native-lib PUBLIC
-        C:/Work/rpo/RPO/libs/spdlog/spdlog/include
-        C:/Work/rpo/RPO/libs/mbedtls/mbedtls/include
+        D:/Work/rpo/RPO/libs/spdlog/spdlog/include
+        D:/Work/rpo/RPO/libs/mbedtls/mbedtls/include
 
 )
 
@@ -60,7 +60,7 @@ set_target_properties(
 )
 
 configure_file(
-        C:/Work/rpo/RPO/libs/mbedtls/build/${ANDROID_ABI}/library/libmbedcrypto.so
+        D:/Work/rpo/RPO/libs/mbedtls/build/${ANDROID_ABI}/library/libmbedcrypto.so
         ${CMAKE_CURRENT_SOURCE_DIR}/../cmakeLibs/${ANDROID_ABI}/libmbedcrypto.so
         COPYONLY
 )
